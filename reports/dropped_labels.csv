@@ -1,0 +1,16 @@
+Sentence,Label,source
+1 and user_name (  )   =  'dbo',1,kaggle
+ ( sqlvuln ) ,1,kaggle
+031003000270000,1,kaggle
+@variable,1,kaggle
+",@variable",1,kaggle
+procedure,1,kaggle
+bfilename,1,kaggle
+to_timestamp_tz,1,kaggle
+tz_offset,1,kaggle
+"<>""'%; )  ( &+",1,kaggle
+'sqlattempt1,1,kaggle
+ ( sqlattempt2 ) ,1,kaggle
+* ( | ( mail = *  )  )  ,1,kaggle
+* ( | ( objectclass = *  )  )  ,1,kaggle
+ or  ( EXISTS ) ,1,kaggle

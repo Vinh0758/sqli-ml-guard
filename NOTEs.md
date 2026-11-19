@@ -1,0 +1,57 @@
+- Rà soát 32 mẫu nhãn 0 có từ khóa SQL: tất cả là văn xuôi/rác HTTP, giữ nhãn 0.
+- Bản lọc đầu xóa nhầm payload thật (`' --`, `create user ...`); sửa lại bằng quy tắc theo cấu trúc SQL.
+- Mảnh vụn 1-8 ký tự không có cấu trúc SQL (a, s, 1, or...): loại. Probe mơ hồ (a', '-', ' '): cách ly.
+- Mẫu dài > 1000 ký tự: loại (rác multipart).
+- Chia train/test theo nhóm (che chữ số) để chống rò rỉ.
+- Bản lọc 3: thêm nháy kép, ngoặc quanh toán hạng, or/and + in/between.
+- Còn ~14 mẫu nhãn 1 bị loại: LDAP (2), probe/tên hàm/mảnh số (~11), `or (EXISTS)` (1).
+- Dừng chỉnh luật tại đây để hạn chế thiên lệch do lọc nhãn bằng luật.
+- Baseline (test nội bộ): Regex F1 0.661 FPR 0.084; LogReg F1 0.974 FPR 0.000; SVM F1 0.974 FPR 0.001.
+  CI bootstrap của LogReg và SVM chồng lấn -> không kết luận hơn kém.
+- Regex chặn nhầm 21% benign tự sinh (câu có `--`, `;`, dấu nháy).
+- Nghi ngờ dữ liệu quá dễ; kiểm chứng bằng tập benign tự viết tay + payload ngoài.
+- Ablation dữ liệu: A (gốc) ext_recall 0.893 / hand_fpr 1/103; B (+augment) 0.989 / 3/103; C (+sqliv2) 0.972 / 2/103.
+- sqliv2 cùng nguồn với sqli.csv (5069 mẫu trùng nhóm với tập đánh giá) và làm giảm test_recall 0.949 -> 0.892: không dùng.
+- Cảnh báo: khuôn augmentation viết sau khi thấy lỗi external -> ext_recall 0.989 là dev, không phải test độc lập.
+- Test độc lập thật: lưu lượng sqlmap sinh trên lab (bước end-to-end).
+- Validation lấy từ train+augment (tổng hợp) quá dễ (recall 1.000) nên chọn ngưỡng 0.30, nhưng hand_fpr = 10/103.
+- Chọn ngưỡng block = 0.50 (test_recall 0.949, test_fpr 0.001, ext 0.989, hand 3/103); monitor = 0.30.
+- Bài học: ngưỡng cần chọn trên tập validation phản ánh dữ liệu thật, không phải dữ liệu tự sinh.
+- sqlmap level=2 risk=1, GUARD_MODE=off: injectable, 5 kỹ thuật (boolean, error, stacked, time, UNION 3 cột), 44 request.
+- Cùng lệnh, GUARD_MODE=block: phát hiện WAF, 134/140 request bị 403, không khai thác được.
+- Cảnh báo: payload sqlmap trùng khuôn đã đưa vào augment -> chưa phải kiểm chứng độc lập; cần thử tamper.
+- sqlmap level 3 risk 2 + tamper space2comment,randomcase, GUARD_MODE=block: không khai thác được; 368 request 403, 8 request 500 lọt.
+- Đếm guard.log chưa sạch (không xóa được file khi server chạy). Làm lại với server dừng trước khi xóa log.
+- Bước normalize (/**/ -> khoảng trắng, lowercase) vô hiệu hóa 2 tamper này.
+- tamper between,charunicodeencode (block, level 3 risk 2): 1 block, 286 pass_low (điểm 0.25-0.30). Nguyên nhân: %uXXXX không được normalize giải mã.
+- tamper space2plus,randomcase (block): không khai thác được; 367 block, 22 lần 500, 6 pass_low. Lọt: CASE WHEN (0.291).
+- Lưu ý: %uXXXX chỉ hiệu lực trên IIS/ASP, không với FastAPI -> WAF miss != khai thác thành công.
+- Bản vá: giải mã %uXXXX trong normalize; thêm khuôn CASE WHEN vào augment.
+- Sau vá %uXXXX + khuôn CASE WHEN: tamper between,charunicodeencode (block): 380 request 403, 0 lỗi 500, không khai thác được, ~7s (trước vá: 1 block, 286 pass_low, ~10 phút).
+- Cảnh báo: bản vá viết sau khi thấy lỗi; charunicodeencode chỉ hợp lệ với ASP/ASP.NET.
+- Cần đo thêm với tamper chưa dùng: apostrophenullencode,percentage; equaltolike,space2randomblank.
+- Sau vá %uXXXX + khuôn CASE WHEN: tamper between,charunicodeencode (block): 380 request 403, 0 lỗi 500, không khai thác được, ~7s (trước vá: 1 block, 286 pass_low, ~10 phút).
+- Cảnh báo: bản vá viết sau khi thấy lỗi; charunicodeencode chỉ hợp lệ với ASP/ASP.NET.
+- Cần đo thêm với tamper chưa dùng: apostrophenullencode,percentage; equaltolike,space2randomblank.
+- Tamper apostrophenullencode,percentage (block, trước vá): 1x403, 174x500, không khai thác được. WAF gần như không phát hiện.
+- Nguyên nhân: normalize không xử lý NUL (%00) và % chèn giữa ký tự. Lưu ý: backend (PostgreSQL) từ chối NUL, nên không khai thác được nhờ may mắn, không nhờ WAF.
+- Bản vá: bỏ \x00 và % lẻ trong normalize. Cần đo lại + tamper chưa dùng.
+- Sau vá NUL và % lẻ: tamper apostrophenullencode,percentage (block): 371x403, 8x500, không khai thác được (trước vá: 1x403, 174x500).
+- Tamper chưa tinh chỉnh equaltolike,space2randomblank (block): 388x403, 6x500, không khai thác được.
+- pass_low: request gốc "Lap" và probe ký tự đặc biệt, điểm 0.19-0.25.
+- Giới hạn: 1 endpoint, 1 DB, sqlmap level 3 risk 2; vá viết sau khi thấy lỗi.
+- Độ trễ (1 client tuần tự, 1000 request, trung vị 3 lần, cùng máy):
+  /ping: off p50 3.14 / p95 4.20 / p99 5.09 ms; block 5.07 / 8.00 / 10.66 ms (+~2 ms p50). Lần block đầu 9.22 ms do khởi động lạnh.
+  /safe/products (có PostgreSQL): off 54.15 / 79.05 / 107.98; block 59.47 / 81.37 / 112.10 (+~5 ms p50).
+- Nền 50 ms do mở kết nối DB mỗi request (chưa dùng pool) + Docker/WSL2.
+- So sánh (external 467 payload, handmade 103 câu): no WAF 0.000/0.000; ML WAF 0.989/0.029; ModSecurity+CRS PL1 0.852/0.019.
+- Thiên lệch: external đã dùng để tinh chỉnh ML, CRS không tinh chỉnh. FPR chênh 1 câu, không có ý nghĩa thống kê.
+- Độ trễ /ping p50: off 3.14, ML 5.07, ModSecurity ~7.9 ms (có thêm hop nginx/Docker).
+- sqlmap (equaltolike,space2randomblank) qua ModSecurity+CRS PL1: không khai thác được, 299x403, 0x500.
+- WAF ML cùng tamper: 388x403, 6x500, không khai thác được. Số 403 không so sánh được trực tiếp vì sqlmap dừng sớm.
+- ModSecurity+CRS paranoia 1 và 2 cho cùng kết quả trên external (0.852) và handmade (0.019).
+  Xác nhận PARANOIA=2 đã nhận trong container (printenv). Tập 103 câu quá nhỏ để thấy khác biệt FPR.
+  - CRS PL1 (PARANOIA=1, BLOCKING_PARANOIA=1): detection 0.852, FPR 0.019 (2/103).
+- CRS PL2 (cả hai biến =2): detection 0.987, FPR 0.184 (19/103). Lưu ý: image có 2 biến riêng; đổi chỉ PARANOIA không làm đổi kết quả chặn.
+- ML WAF ngưỡng 0.5: detection 0.989, FPR 0.029 (3/103).
+- Thiên lệch: external dùng tinh chỉnh ML; handmade có 75/103 câu do trợ lý sinh. CRS không tinh chỉnh.

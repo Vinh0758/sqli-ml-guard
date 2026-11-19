@@ -1,0 +1,72 @@
+Sentence,Label,source
+a,1,kaggle
+a' ,1,kaggle
+@,1,kaggle
+?,1,kaggle
+1,1,kaggle
+1'1,1,kaggle
+1\'1,1,kaggle
+||6,1,kaggle
+ ( ||6 ) ,1,kaggle
+s,1,kaggle
+&1c,1,kaggle
+ ( s,1,kaggle
+ ) s,1,kaggle
+",s",1,kaggle
+.s,1,kaggle
+1s,1,kaggle
+;s,1,kaggle
+?s,1,kaggle
+UE1,1,kaggle
+UEf,1,kaggle
+UEs,1,kaggle
+UEv,1,kaggle
+c,1,kaggle
+n,1,kaggle
+ns,1,kaggle
+os,1,kaggle
+v,1,kaggle
+{s,1,kaggle
+'-',1,kaggle
+' ',1,kaggle
+'&',1,kaggle
+'^',1,kaggle
+'*',1,kaggle
+"""-""",1,kaggle
+""" """,1,kaggle
+"""&""",1,kaggle
+"""^""",1,kaggle
+"""*""",1,kaggle
+'sqlvuln,1,kaggle
+sqlvuln;,1,kaggle
+0,1,kaggle
+',1,kaggle
+PRINT,1,kaggle
+as,1,kaggle
+or,1,kaggle
+limit,1,kaggle
+order by,1,kaggle
+asc,1,kaggle
+desc,1,kaggle
+distinct,1,kaggle
+having,1,kaggle
+truncate,1,kaggle
+replace,1,kaggle
+like,1,kaggle
+handler,1,kaggle
+|,1,kaggle
+*|,1,kaggle
+ ( ,1,kaggle
+ ) ,1,kaggle
+&,1,kaggle
+!,1,kaggle
+/,1,kaggle
+//,1,kaggle
+21 %,1,kaggle
+ --,1,kaggle
+3.10E+17,1,kaggle
+sqlvuln,1,kaggle
+26 %,1,kaggle
+29 %,1,kaggle
+||'6,1,kaggle
+28 %,1,kaggle

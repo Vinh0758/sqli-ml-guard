@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+xgboost
+fastapi
+uvicorn
+requests
+locust
+psutil
+onnx
+onnxruntime
+psycopg2-binary
+sqlmap

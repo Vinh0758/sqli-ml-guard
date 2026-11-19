@@ -1,0 +1,4 @@
+config,n_train,test_recall,test_fpr,ext_recall,hand_fpr
+A: train gốc,4180,0.949,0.0,0.893,1/103
+B: gốc + augment,5230,0.949,0.001,0.989,3/103
+C: gốc + augment + sqliv2,21077,0.892,0.0021,0.972,2/103
